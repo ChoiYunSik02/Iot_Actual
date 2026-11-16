@@ -1,0 +1,158 @@
+{
+ "stage": "pilot8",
+ "device": "cuda",
+ "patience": 10,
+ "seed": 8402,
+ "epochs_max": 100,
+ "best_epoch": 9,
+ "val_mse": 1.06582935546875,
+ "history": [
+  {
+   "epoch": 1,
+   "train_loss": 1.0783196783065796,
+   "val_mse": 1.0762308862304688,
+   "elapsed_s": 4.686826705932617
+  },
+  {
+   "epoch": 2,
+   "train_loss": 1.0700929152369498,
+   "val_mse": 1.072068349609375,
+   "elapsed_s": 9.079493761062622
+  },
+  {
+   "epoch": 3,
+   "train_loss": 1.0657216047644615,
+   "val_mse": 1.0687305322265626,
+   "elapsed_s": 13.466462135314941
+  },
+  {
+   "epoch": 4,
+   "train_loss": 1.0635763430595397,
+   "val_mse": 1.0698768798828124,
+   "elapsed_s": 17.931312561035156
+  },
+  {
+   "epoch": 5,
+   "train_loss": 1.06216904681921,
+   "val_mse": 1.067877333984375,
+   "elapsed_s": 22.236481189727783
+  },
+  {
+   "epoch": 6,
+   "train_loss": 1.0609197509288788,
+   "val_mse": 1.06695498046875,
+   "elapsed_s": 27.063925981521606
+  },
+  {
+   "epoch": 7,
+   "train_loss": 1.060025476038456,
+   "val_mse": 1.0667123217773438,
+   "elapsed_s": 32.06231904029846
+  },
+  {
+   "epoch": 8,
+   "train_loss": 1.0592773457765579,
+   "val_mse": 1.0660116748046875,
+   "elapsed_s": 36.52922511100769
+  },
+  {
+   "epoch": 9,
+   "train_loss": 1.0583747400343417,
+   "val_mse": 1.06582935546875,
+   "elapsed_s": 41.057297468185425
+  },
+  {
+   "epoch": 10,
+   "train_loss": 1.0576323643028736,
+   "val_mse": 1.0661329248046876,
+   "elapsed_s": 45.63152885437012
+  },
+  {
+   "epoch": 11,
+   "train_loss": 1.0567380911707878,
+   "val_mse": 1.0671499853515625,
+   "elapsed_s": 49.860532999038696
+  },
+  {
+   "epoch": 12,
+   "train_loss": 1.055901239603758,
+   "val_mse": 1.066168857421875,
+   "elapsed_s": 54.13943362236023
+  },
+  {
+   "epoch": 13,
+   "train_loss": 1.0553649388551711,
+   "val_mse": 1.0658857788085938,
+   "elapsed_s": 59.157031774520874
+  },
+  {
+   "epoch": 14,
+   "train_loss": 1.0545839407444,
+   "val_mse": 1.0668988256835938,
+   "elapsed_s": 63.999528646469116
+  },
+  {
+   "epoch": 15,
+   "train_loss": 1.0539753869175912,
+   "val_mse": 1.0673822607421874,
+   "elapsed_s": 68.30438566207886
+  },
+  {
+   "epoch": 16,
+   "train_loss": 1.052979011595249,
+   "val_mse": 1.0666131762695312,
+   "elapsed_s": 72.47465920448303
+  },
+  {
+   "epoch": 17,
+   "train_loss": 1.0521815701127053,
+   "val_mse": 1.0663532934570312,
+   "elapsed_s": 76.9075973033905
+  },
+  {
+   "epoch": 18,
+   "train_loss": 1.0513182784318924,
+   "val_mse": 1.0663608740234376,
+   "elapsed_s": 81.18787264823914
+  },
+  {
+   "epoch": 19,
+   "train_loss": 1.050363879799843,
+   "val_mse": 1.0662155590820313,
+   "elapsed_s": 85.91172766685486
+  }
+ ],
+ "train_s": 86.37480092048645,
+ "n_train": 32000,
+ "n_val": 8000,
+ "scaler": {
+  "mu": [
+   -6.121478221433013e-05,
+   -4.666254429041585e-05
+  ],
+  "sd": [
+   0.07771195732673868,
+   0.07809848415681113
+  ]
+ },
+ "order_in": "X: (B, T=500, C=3) = [zX, zY, mask]",
+ "order_out": "[zX(1..400); zY(1..400)]",
+ "gate_order": "PyTorch LSTM i, f, g, o",
+ "numpy_parity_maxabs": 4.3538266591980346e-07,
+ "dataset": "C:\\Users\\cys\\Desktop\\iot-actuator-week08\\predictive_control_matlab\\data\\forecast_dataset_pilot.mat",
+ "dataset_sha16": "2c37c5981892d318",
+ "dataset_format": "matlab-v7.3",
+ "torch": "2.6.0+cu124",
+ "numpy": "2.4.6",
+ "python": "3.11.0",
+ "platform": "Windows-10-10.0.26300-SP0",
+ "threads": 16,
+ "quiet_frac_train": 0.169,
+ "overfit_check": {
+  "n_windows": 64,
+  "steps": 300,
+  "loss_first": 1.2951607704162598,
+  "loss_last": 0.14011098444461823,
+  "pass": true
+ }
+}

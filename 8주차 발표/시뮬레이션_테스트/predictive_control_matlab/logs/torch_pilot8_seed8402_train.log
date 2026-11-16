@@ -1,0 +1,23 @@
+자료 matlab-v7.3: train (32000, 500, 3), val (8000, 500, 3), real_val (120, 500, 3)
+정답 RMS<0.1(무진동) 창 비율 0.169, 정답 RMS 중앙값 0.935
+과적합 시험 64창 300스텝: 손실 1.2952 → 0.1401 → 통과
+epoch   1  train 1.0783  val 1.0762  5 s
+epoch   2  train 1.0701  val 1.0721  9 s
+epoch   3  train 1.0657  val 1.0687  13 s
+epoch   4  train 1.0636  val 1.0699  18 s
+epoch   5  train 1.0622  val 1.0679  22 s
+epoch   6  train 1.0609  val 1.0670  27 s
+epoch   7  train 1.0600  val 1.0667  32 s
+epoch   8  train 1.0593  val 1.0660  37 s
+epoch   9  train 1.0584  val 1.0658  41 s
+epoch  10  train 1.0576  val 1.0661  46 s
+epoch  11  train 1.0567  val 1.0671  50 s
+epoch  12  train 1.0559  val 1.0662  54 s
+epoch  13  train 1.0554  val 1.0659  59 s
+epoch  14  train 1.0546  val 1.0669  64 s
+epoch  15  train 1.0540  val 1.0674  68 s
+epoch  16  train 1.0530  val 1.0666  72 s
+epoch  17  train 1.0522  val 1.0664  77 s
+epoch  18  train 1.0513  val 1.0664  81 s
+epoch  19  train 1.0504  val 1.0662  86 s
+최저 검증 MSE 1.0658 (epoch 9), numpy 대조 4.35e-07, 학습 86 s → C:\Users\cys\Desktop\iot-actuator-week08\predictive_control_matlab\models\torch_pilot8_seed8402.pt

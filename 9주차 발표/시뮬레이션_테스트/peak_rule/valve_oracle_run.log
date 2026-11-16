@@ -1,0 +1,95 @@
+P13 Northridge-01 T=1000 66s gain +0.98
+P2 Imperial Valley-06 T=1362 87s gain +1.99
+RSN825 Cape Mendocino T=1500 95s gain +2.47
+RSN828 Cape Mendocino T=1800 110s gain +2.16
+RSN1063 Northridge-01 T=1991 120s gain +3.11
+RSN126 Gazli, USSR T=1984 121s gain +0.44
+RSN1086 Northridge-01 T=2000 121s gain +3.39
+RSN960 Northridge-01 T=1999 121s gain +2.65
+RSN900 Landers T=2200 126s gain +4.47
+RSN725 Superstition Hills-02 T=2230 125s gain +1.46
+RSN723 Superstition Hills-02 T=2231 126s gain +1.41
+RSN1633 Manjil, Iran T=2300 129s gain +4.90
+P7 Imperial Valley-06 T=2844 159s gain +2.45
+RSN1048 Northridge-01 T=2999 168s gain +3.57
+RSN953 Northridge-01 T=2999 168s gain +4.97
+RSN496 Nahanni, Canada T=3991 223s gain +0.80
+RSN1116 Kobe, Japan T=4096 231s gain +3.87
+RSN1111 Kobe, Japan T=4096 230s gain +5.44
+RSN495 Nahanni, Canada T=4113 232s gain +0.60
+RSN821 Erzican, Turkey T=4156 233s gain +0.92
+RSN1787 Hector Mine T=4531 265s gain +2.82
+RSN741 Loma Prieta T=5001 297s gain +2.10
+RSN165 Imperial Valley-06 T=5159 313s gain +6.58
+RSN1605 Duzce, Turkey T=5177 317s gain +2.99
+RSN1158 Kocaeli, Turkey T=5437 350s gain +4.75
+RSN1602 Duzce, Turkey T=5590 362s gain +4.70
+RSN1148 Kocaeli, Turkey T=6000 391s gain +2.66
+RSN1165 Kocaeli, Turkey T=6000 395s gain +3.56
+RSN1176 Kocaeli, Turkey T=7000 466s gain +2.10
+RSN848 Landers T=7180 479s gain +1.43
+RSN125 Friuli, Italy-01 T=7277 486s gain +1.86
+P9 Imperial Valley-06 T=7374 490s gain +2.33
+P6 Imperial Valley-06 T=7403 491s gain +3.95
+P14 Kobe Japan T=7500 500s gain +2.21
+P10 Imperial Valley-06 T=7520 504s gain +3.15
+RSN160 Imperial Valley-06 T=7529 504s gain +2.10
+P12 Imperial Valley-06 T=7573 506s gain +1.73
+P4 Imperial Valley-06 T=7575 508s gain +1.74
+P3 Imperial Valley-06 T=7800 521s gain +8.40
+P1 Imperial Valley-06 T=7815 524s gain +1.90
+RSN181 Imperial Valley-06 T=7817 521s gain +2.34
+P8 Imperial Valley-06 T=7875 528s gain +2.91
+P11 Imperial Valley-06 T=7923 530s gain +1.78
+RSN68 San Fernando T=7945 537s gain +12.57
+RSN752 Loma Prieta T=7999 539s gain +2.39
+RSN753 Loma Prieta T=7997 537s gain +3.65
+RSN767 Loma Prieta T=7997 538s gain +2.97
+RSN802 Loma Prieta T=7999 538s gain +2.50
+P5 Imperial Valley-06 T=8000 536s gain +1.77
+RSN1004 Northridge-01 T=9557 651s gain +3.07
+RSN879 Landers T=9625 650s gain +5.75
+RSN169 Imperial Valley-06 T=10015 693s gain +8.16
+RSN721 Superstition Hills-02 T=11999 824s gain +3.56
+RSN292 Irpinia, Italy-01 T=16392 1140s gain +2.90
+RSN1244 Chi-Chi, Taiwan T=18000 1257s gain +3.17
+RSN1485 Chi-Chi, Taiwan T=18000 1256s gain +3.17
+RSN1503 Chi-Chi, Taiwan T=18000 1239s gain +4.92
+RSN1504 Chi-Chi, Taiwan T=18000 1204s gain +3.13
+RSN1517 Chi-Chi, Taiwan T=18000 1194s gain +3.64
+RSN1529 Chi-Chi, Taiwan T=18000 1169s gain +5.22
+RSN2114 Denali, Alaska T=18419 1091s gain +2.17
+P15 Chi-Chi Taiwan T=37500 1880s gain +3.47
+{
+ "n_pairs": 62,
+ "n_events": 21,
+ "LP_V_rec": 16.746025478986645,
+ "oracle_minus_LP_V_evt": 3.2431144457285632,
+ "ci95": [
+  2.3868918066301577,
+  4.36401643749485
+ ],
+ "per_event": {
+  "Cape Mendocino": 2.3130073409562737,
+  "Chi-Chi Taiwan": 3.4666435619810287,
+  "Chi-Chi, Taiwan": 3.874617913621927,
+  "Denali, Alaska": 2.1664698055921527,
+  "Duzce, Turkey": 3.846440777368084,
+  "Erzican, Turkey": 0.9156353403599465,
+  "Friuli, Italy-01": 1.8645168000733472,
+  "Gazli, USSR": 0.44003476615289094,
+  "Hector Mine": 2.8164687652292226,
+  "Imperial Valley-06": 3.3303142377923214,
+  "Irpinia, Italy-01": 2.902664027979007,
+  "Kobe Japan": 2.213787062732568,
+  "Kobe, Japan": 4.656468089694275,
+  "Kocaeli, Turkey": 3.2694809295735054,
+  "Landers": 3.882231967814477,
+  "Loma Prieta": 2.721235924739421,
+  "Manjil, Iran": 4.900569441364076,
+  "Nahanni, Canada": 0.7016501141169814,
+  "Northridge-01": 3.106852346469329,
+  "San Fernando": 12.573625331726944,
+  "Superstition Hills-02": 2.142688814962055
+ }
+} 5134s

@@ -1,0 +1,269 @@
+{
+  "version": "dev-0.1",
+  "status": "개발용 초기 설정 (계획서 5·8·9절 제안값). 실측 계산시간·스케일을 반영해 AI 시험 전에 config/frozen/ 사본으로 동결한다.",
+  "paths": {
+    "reference_engine": "../code/matlab/rstlcd_sim.m",
+    "validation_ref": "data/reference/validation_ref.mat",
+    "records_dir": "data/records",
+    "record_manifest": "data/record_manifest.csv"
+  },
+  "plant": {
+    "dt": 0.01,
+    "dt_check": 0.005,
+    "c_scale": 30,
+    "rotation_model": "cos_twice (원문 근사, rstlcd_sim.m 그대로)",
+    "note": "모든 성능은 '원문 근사 모델·감쇠 x30 재현 모델에서'로 한정"
+  },
+  "device": {
+    "f0_hz": 0.3373,
+    "f_range_hz": [
+      0.3204,
+      0.3542
+    ],
+    "pump_ramp_s": 2.6,
+    "rot_rate_deg_s": 30,
+    "theta_range_deg": [
+      0,
+      90
+    ],
+    "kappa0": 0.4,
+    "kappa_set": [
+      0.1,
+      0.4,
+      0.8
+    ],
+    "grid_pump_s": 2.6,
+    "grid_angle_s": 2.6,
+    "grid_valve_s": 1.0
+  },
+  "sensor": {
+    "ai_rate_hz": 100,
+    "trigger_mps2": 0.005,
+    "noise_std_mps2": 0.0,
+    "noise_seed": 8600
+  },
+  "forecast": {
+    "first_after_trigger_s": 1.0,
+    "window_s": 5.0,
+    "update_period_s": 0.2,
+    "horizon_s": 4.0,
+    "min_eval_s": 2.0,
+    "worker_rule": "작업자 1개. 이전 작업이 끝나지 않은 갱신 시각은 건너뛰고 deadline_miss로 기록. 완료된 구형 예측은 새 예측으로 쓰지 않음(기준시각 보존).",
+    "valid_mask_rule": "트리거 시각 이후에 도착한 100 Hz 샘플만 mask=1. 그 앞은 0 채움, mask=0. 정규화 후 패딩, mask는 표준화하지 않음."
+  },
+  "latency": {
+    "sensor_s": 0.0,
+    "comm_s": 0.0,
+    "extra_info_s": 0.0,
+    "extra_info_sweep_s": [
+      0.0,
+      0.1,
+      0.5,
+      1.0
+    ],
+    "compute_s": {
+      "R": null,
+      "select_C1": null,
+      "select_C2": null,
+      "forecast_zero": null,
+      "forecast_persistence": null,
+      "forecast_var": null,
+      "forecast_lstm": null,
+      "forecast_preview": null
+    },
+    "compute_source": "모두 null = 미측정. D 단계 measure_runtime이 노트북에서 잰 값(워밍업 후 p95)을 config/latency_measured.json에 쓰고, pc_config가 그 값으로 채운다. timing_mode=actual에서 미측정 항목이 있으면 run_closed_loop가 실행을 거부한다(예산 0으로 모든 지령이 늦음 처리되는 것을 막음). 재현·인과성 시험과 scales는 nominal로 돈다.",
+    "timing_mode": "actual",
+    "timing_note": "actual: 예측 준비 시각 = 계산 시작 + max(설정 지연, 실측 계산시간); 지령 도착 = 결정 시각 + 실측 선택 계산시간 + 통신 + 추가 지연. 도착이 장치 갱신 격자보다 늦으면 그 지령은 적용하지 않고, 같은 결정 시점에 계산한 R 지령(실측 시간 포함)이 제때 도착하면 그것을 적용, 그것도 늦으면 이전 지령 유지. nominal: 실측 시간을 시간축에 넣지 않음(재현·인과성 시험용, 결정론적).",
+    "inject_select_s": 0.0,
+    "inject_forecast_s": 0.0,
+    "inject_note": "시험 전용 인위 계산시간 (tests/test_stage_C T8). 실험에서는 0."
+  },
+  "controller": {
+    "C1": {
+      "df_hz": [
+        -0.005,
+        0.0,
+        0.005
+      ],
+      "dtheta_deg": [
+        -15,
+        0,
+        15
+      ]
+    },
+    "C2": {
+      "df_hz": [
+        -0.005,
+        0.0,
+        0.005
+      ],
+      "dtheta_deg": [
+        -15,
+        0,
+        15
+      ],
+      "kappa": [
+        0.1,
+        0.4,
+        0.8
+      ]
+    },
+    "move_weight": 0.05,
+    "torsion_rule": "예측 구간 비틀림 최대·RMS가 같은 예측 입력의 R 후보보다 크면 배제(허용 0, 수치 여유 1e-12 상대). 만족 후보 없음·계산 실패·NaN은 R 실행.",
+    "torsion_rel_tol": 1e-12,
+    "tie_order": "R → 유지 → 나머지(후보 생성 순서)",
+    "scales_file": "config/scales.json",
+    "scales_events": [
+      "ImperialValley1979",
+      "Northridge1994",
+      "ChiChi1999",
+      "Gyeongju2016"
+    ],
+    "J": {
+      "df_hz": [
+        -0.005,
+        0.0,
+        0.005
+      ],
+      "angle_grid_deg": [
+        0,
+        22.5,
+        45,
+        67.5,
+        90
+      ],
+      "kappa": [
+        0.1,
+        0.4,
+        0.8
+      ],
+      "default_path": "ontime",
+      "constraint": "shadow",
+      "note": "8주차 v2 공동 선택(펌프·회전판·밸브), report/design_joint_v2.md. 느린 2.6 s: 유지 + R + f 3 × 각도 5 × κ 3(중복 제거), κ는 다음 밸브 격자에 적용할 계획값. 빠른 1 s 밸브 격자(펌프 격자와 겹치지 않을 때): 유지 + R + κ 3. 동점 유지 → R → 고정 ID. 비용 = 기존 C1 식(이동 항 f·θ), 밸브 전환은 보고만."
+    }
+  },
+  "fix": {
+    "f_hz": 0.34856666666666664,
+    "theta_deg": 45,
+    "source": "7주차 사전 고정값(개발 자료 기반 선정, week08_actuator_ai_results FA와 같은 값). 시험 자료로 다시 고르지 않음."
+  },
+  "data": {
+    "dev_events_control": [
+      "ElCentro1940",
+      "Pohang2017",
+      "Kobe1995"
+    ],
+    "real_train_events": [],
+    "real_val_events": [
+      "ElCentro1940",
+      "Pohang2017",
+      "Kobe1995"
+    ],
+    "test_events": [],
+    "test_note": "모든 실제 기록(11개)은 이전 주차에 개발에 쓰였으므로 독립 시험이 아니다. 8주차 결과는 모두 개발 평가다. 실제 기록은 AI 학습·체크포인트 선택에 쓰지 않는다.",
+    "split_seed": 8400,
+    "smoke": {
+      "n_sources": 200,
+      "n_train": 160,
+      "n_val": 40,
+      "seed0": 84000,
+      "max_windows_per_source": 100
+    },
+    "pilot": {
+      "n_sources": 1000,
+      "n_train": 800,
+      "n_val": 200,
+      "seed0": 84000,
+      "max_windows_per_source": 40,
+      "max_windows_total": 100000
+    },
+    "real_weight_fraction": 0.2,
+    "pga_track": "const",
+    "pga_const_mps2": 0.35,
+    "pga_scales_variable": [
+      0.5,
+      1.0,
+      2.0
+    ],
+    "synthetic_generator": "Kanai-Tajimi x Clough-Penzien 필터 백색잡음 x Jennings 포락선 (페이퍼/.../gen_labels_v2.py synthetic()의 분포를 MATLAB으로 옮김; 난수 생성기가 달라 개별 파형은 다름)"
+  },
+  "lstm": {
+    "hidden": 64,
+    "fc1": 128,
+    "out": 800,
+    "loss": "mse",
+    "optimizer": "adam",
+    "lr": 0.001,
+    "batch": 32,
+    "grad_threshold": 1,
+    "max_epochs": 100,
+    "patience": 10,
+    "smoke_epochs": 10,
+    "smoke_seed": 8401,
+    "pilot_seeds": [
+      8401,
+      8402,
+      8403
+    ],
+    "pilot8_seed": 8401,
+    "pilot8_max_epochs": 100,
+    "pilot8_patience": 10,
+    "pilot8_extra_seeds": [
+      8402,
+      8403
+    ]
+  },
+  "var": {
+    "lags": 50,
+    "ridge_grid": [
+      0.001,
+      0.01,
+      0.1,
+      1,
+      10,
+      100
+    ]
+  },
+  "evaluation": {
+    "metrics": [
+      "ux_max",
+      "ux_rms",
+      "uy_max",
+      "uy_rms",
+      "th_max",
+      "th_rms"
+    ],
+    "bootstrap_n": 10000,
+    "bootstrap_seed": 8500,
+    "target_delta_pp": [
+      2,
+      3
+    ],
+    "target_note": "R 대비 +2~3 %p는 목표이지 보장·종료 조건·자료 선정 기준이 아님"
+  },
+  "joint_scorer": {
+    "hidden": [
+      128,
+      64
+    ],
+    "loss": "huber",
+    "lr": 0.001,
+    "batch": 128,
+    "max_epochs": 50,
+    "patience": 5,
+    "seed": 8401,
+    "top_k": 3,
+    "teacher": {
+      "n_train_records": 80,
+      "n_val_records": 20,
+      "select_seed": 8401,
+      "states_per_record": 8,
+      "slow_per_record": 4,
+      "fast_per_record": 4,
+      "explore_seed0": 9100,
+      "time_limit_h": 6
+    },
+    "target": "J_true/J_true(R) - 1 (실제 미래 teacher, 상태별 R 정규화)",
+    "n_features": 98
+  }
+}

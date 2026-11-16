@@ -1,0 +1,53 @@
+{
+ "T_OBS": 8.0,
+ "n_case": 248,
+ "n_event": 19,
+ "arms": [
+  "p0.5",
+  "p0",
+  "p1",
+  "maxabs",
+  "LP"
+ ],
+ "rows": {
+  "all rotations": {
+   "p05": 0.0,
+   "const": -0.027651202409754615,
+   "AI": -0.035043728501424475,
+   "oracle": 1.2971939221774513,
+   "always_p0": -0.6067055038901867,
+   "always_p1": -0.6118527316208716,
+   "always_maxabs": -0.007739136479534187,
+   "always_LP": -0.01846671862231992,
+   "AI_vs_const_better_events": 7,
+   "AI_vs_const_worse_events": 11
+  },
+  "unrotated": {
+   "p05": 0.0,
+   "const": -0.005665395728983999,
+   "AI": 0.11414166349352968,
+   "oracle": 1.8216941551424586,
+   "always_p0": -0.38344714933421353,
+   "always_p1": -0.3641564795809101,
+   "always_maxabs": 0.16651169951170633,
+   "always_LP": 0.1537131345379224,
+   "AI_vs_const_better_events": 5,
+   "AI_vs_const_worse_events": 8
+  }
+ },
+ "pick_counts": {
+  "p0.5": 82,
+  "p0": 21,
+  "p1": 17,
+  "maxabs": 63,
+  "LP": 65
+ },
+ "const_counts": {
+  "p0.5": 228,
+  "p0": 0,
+  "p1": 0,
+  "maxabs": 20,
+  "LP": 0
+ },
+ "adopt": false
+}

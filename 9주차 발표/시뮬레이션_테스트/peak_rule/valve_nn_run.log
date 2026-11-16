@@ -1,0 +1,244 @@
+zero-net = LP_V ok
+fold 1/19 Cape n_test 2 0s
+  epoch 0 loss 0.85049
+  epoch 5 loss 0.85049
+  epoch 10 loss 0.85048
+  epoch 15 loss 0.85046
+  epoch 20 loss 0.85044
+  epoch 25 loss 0.85042
+  epoch 30 loss 0.85039
+  epoch 35 loss 0.85038
+  epoch 39 loss 0.85032
+  fold gain 0.052
+fold 2/19 Chi-Chi n_test 7 1852s
+  epoch 0 loss 0.86633
+  epoch 5 loss 0.86634
+  epoch 10 loss 0.86633
+  epoch 15 loss 0.86632
+  epoch 20 loss 0.86630
+  epoch 25 loss 0.86629
+  epoch 30 loss 0.86627
+  epoch 35 loss 0.86624
+  epoch 39 loss 0.86620
+  fold gain -0.057
+fold 3/19 Denali n_test 1 3572s
+  epoch 0 loss 0.85129
+  epoch 5 loss 0.85122
+  epoch 10 loss 0.85116
+  epoch 15 loss 0.85102
+  epoch 20 loss 0.85086
+  epoch 25 loss 0.85079
+  epoch 30 loss 0.85083
+  epoch 35 loss 0.85078
+  epoch 39 loss 0.85073
+  fold gain -2.535
+fold 4/19 Duzce n_test 2 5430s
+  epoch 0 loss 0.84900
+  epoch 5 loss 0.84900
+  epoch 10 loss 0.84899
+  epoch 15 loss 0.84897
+  epoch 20 loss 0.84893
+  epoch 25 loss 0.84891
+  epoch 30 loss 0.84886
+  epoch 35 loss 0.84884
+  epoch 39 loss 0.84874
+  fold gain 0.036
+fold 5/19 Erzican n_test 1 7250s
+  epoch 0 loss 0.85157
+  epoch 5 loss 0.85154
+  epoch 10 loss 0.85153
+  epoch 15 loss 0.85154
+  epoch 20 loss 0.85152
+  epoch 25 loss 0.85146
+  epoch 30 loss 0.85140
+  epoch 35 loss 0.85134
+  epoch 39 loss 0.85126
+  fold gain -0.479
+fold 6/19 Friuli n_test 1 9086s
+  epoch 0 loss 0.84791
+  epoch 5 loss 0.84790
+  epoch 10 loss 0.84790
+  epoch 15 loss 0.84786
+  epoch 20 loss 0.84784
+  epoch 25 loss 0.84784
+  epoch 30 loss 0.84778
+  epoch 35 loss 0.84770
+  epoch 39 loss 0.84760
+  fold gain 0.003
+fold 7/19 Gazli n_test 1 10917s
+  epoch 0 loss 0.84566
+  epoch 5 loss 0.84567
+  epoch 10 loss 0.84565
+  epoch 15 loss 0.84563
+  epoch 20 loss 0.84560
+  epoch 25 loss 0.84558
+  epoch 30 loss 0.84553
+  epoch 35 loss 0.84551
+  epoch 39 loss 0.84544
+  fold gain -0.08
+fold 8/19 Hector n_test 1 12780s
+  epoch 0 loss 0.85214
+  epoch 5 loss 0.85215
+  epoch 10 loss 0.85213
+  epoch 15 loss 0.85211
+  epoch 20 loss 0.85210
+  epoch 25 loss 0.85203
+  epoch 30 loss 0.85205
+  epoch 35 loss 0.85198
+  epoch 39 loss 0.85189
+  fold gain -0.112
+fold 9/19 Imperial n_test 16 14618s
+  epoch 0 loss 0.85183
+  epoch 5 loss 0.85181
+  epoch 10 loss 0.85181
+  epoch 15 loss 0.85178
+  epoch 20 loss 0.85175
+  epoch 25 loss 0.85172
+  epoch 30 loss 0.85167
+  epoch 35 loss 0.85162
+  epoch 39 loss 0.85152
+  fold gain -0.12
+fold 10/19 Irpinia n_test 1 15979s
+  epoch 0 loss 0.85185
+  epoch 5 loss 0.85184
+  epoch 10 loss 0.85184
+  epoch 15 loss 0.85182
+  epoch 20 loss 0.85179
+  epoch 25 loss 0.85180
+  epoch 30 loss 0.85172
+  epoch 35 loss 0.85168
+  epoch 39 loss 0.85160
+  fold gain -0.077
+fold 11/19 Kobe n_test 3 17735s
+  epoch 0 loss 0.84360
+  epoch 5 loss 0.84360
+  epoch 10 loss 0.84359
+  epoch 15 loss 0.84359
+  epoch 20 loss 0.84359
+  epoch 25 loss 0.84358
+  epoch 30 loss 0.84356
+  epoch 35 loss 0.84353
+  epoch 39 loss 0.84354
+  fold gain 0.187
+fold 12/19 Kocaeli n_test 4 19553s
+  epoch 0 loss 0.84794
+  epoch 5 loss 0.84793
+  epoch 10 loss 0.84793
+  epoch 15 loss 0.84793
+  epoch 20 loss 0.84792
+  epoch 25 loss 0.84786
+  epoch 30 loss 0.84783
+  epoch 35 loss 0.84779
+  epoch 39 loss 0.84775
+  fold gain -0.299
+fold 13/19 Landers n_test 3 21271s
+  epoch 0 loss 0.84481
+  epoch 5 loss 0.84480
+  epoch 10 loss 0.84479
+  epoch 15 loss 0.84477
+  epoch 20 loss 0.84476
+  epoch 25 loss 0.84474
+  epoch 30 loss 0.84469
+  epoch 35 loss 0.84462
+  epoch 39 loss 0.84458
+  fold gain -0.068
+fold 14/19 Loma n_test 5 23045s
+  epoch 0 loss 0.85118
+  epoch 5 loss 0.85118
+  epoch 10 loss 0.85116
+  epoch 15 loss 0.85114
+  epoch 20 loss 0.85115
+  epoch 25 loss 0.85115
+  epoch 30 loss 0.85109
+  epoch 35 loss 0.85102
+  epoch 39 loss 0.85095
+  fold gain 0.032
+fold 15/19 Manjil n_test 1 24715s
+  epoch 0 loss 0.84915
+  epoch 5 loss 0.84915
+  epoch 10 loss 0.84913
+  epoch 15 loss 0.84913
+  epoch 20 loss 0.84912
+  epoch 25 loss 0.84912
+  epoch 30 loss 0.84909
+  epoch 35 loss 0.84906
+  epoch 39 loss 0.84903
+  fold gain 0.023
+fold 16/19 Nahanni n_test 2 26583s
+  epoch 0 loss 0.84663
+  epoch 5 loss 0.84663
+  epoch 10 loss 0.84661
+  epoch 15 loss 0.84657
+  epoch 20 loss 0.84655
+  epoch 25 loss 0.84653
+  epoch 30 loss 0.84648
+  epoch 35 loss 0.84639
+  epoch 39 loss 0.84629
+  fold gain -0.031
+fold 17/19 Northridge-01 n_test 7 28408s
+  epoch 0 loss 0.84871
+  epoch 5 loss 0.84871
+  epoch 10 loss 0.84870
+  epoch 15 loss 0.84869
+  epoch 20 loss 0.84868
+  epoch 25 loss 0.84866
+  epoch 30 loss 0.84867
+  epoch 35 loss 0.84864
+  epoch 39 loss 0.84858
+  fold gain 0.021
+fold 18/19 San n_test 1 30220s
+  epoch 0 loss 0.83447
+  epoch 5 loss 0.83448
+  epoch 10 loss 0.83445
+  epoch 15 loss 0.83444
+  epoch 20 loss 0.83442
+  epoch 25 loss 0.83440
+  epoch 30 loss 0.83436
+  epoch 35 loss 0.83434
+  epoch 39 loss 0.83429
+  fold gain 0.009
+fold 19/19 Superstition n_test 3 32200s
+  epoch 0 loss 0.84952
+  epoch 5 loss 0.84952
+  epoch 10 loss 0.84951
+  epoch 15 loss 0.84950
+  epoch 20 loss 0.84947
+  epoch 25 loss 0.84942
+  epoch 30 loss 0.84936
+  epoch 35 loss 0.84932
+  epoch 39 loss 0.84925
+  fold gain -0.072
+{
+ "n_pairs": 62,
+ "n_events": 19,
+ "epochs": 40,
+ "NN_V_minus_LP_V_evt": -0.18771675062206652,
+ "ci95": [
+  -0.47984102953490415,
+  -0.012700132733615312
+ ],
+ "events_better": 8,
+ "events_worse": 11,
+ "rec_better": 22,
+ "per_event": {
+  "Cape": 0.051632239425792724,
+  "Chi-Chi": -0.056726259999936544,
+  "Denali": -2.5345661729896563,
+  "Duzce": 0.03571249204285936,
+  "Erzican": -0.4791423532603233,
+  "Friuli": 0.0027885875323032344,
+  "Gazli": -0.08030563243992135,
+  "Hector": -0.11243490824108318,
+  "Imperial": -0.11986284655580728,
+  "Irpinia": -0.07708984179063307,
+  "Kobe": 0.18743504662583496,
+  "Kocaeli": -0.2985539411145037,
+  "Landers": -0.0683673131758442,
+  "Loma": 0.031772181288519837,
+  "Manjil": 0.023251738844843835,
+  "Nahanni": -0.03055047442135265,
+  "Northridge-01": 0.02104048616484755,
+  "San": 0.009464113781671998,
+  "Superstition": -0.07211540353687614
+ }
+}

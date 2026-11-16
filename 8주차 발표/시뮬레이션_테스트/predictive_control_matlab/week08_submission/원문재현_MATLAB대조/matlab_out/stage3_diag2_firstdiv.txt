@@ -1,0 +1,80 @@
+=== rec 14 D0 RA ===
+input_sha_note: inputs/PEER14.csv dt=0.01 n=15999
+fcmd steps equal=1 maxdiff_Hz=1.336e-10 | kcmd identical=1 | thcmd steps equal=1
+thcmd diffs > 1e-9 rad (pre-registered limit): count=19 of 61; steps: 9880 11180 11440 11700 11960 12220 12480 12740 13000 13260 13520 13780 14040 14300 14820 15080 15340 15600 15860
+thcmd diff by command (rad): first10= 1.8e-14 6.1e-14 5.3e-14 2.1e-12 1.0e-12 4.6e-12 1.4e-11 3.8e-12 7.2e-12 1.6e-11 ... last5= 2.1e-08 1.6e-08 2.4e-08 5.5e-08 2.4e-08
+ux: first step abs err > 1e-12*peak : 1399
+ux: first step abs err > 1e-10*peak : 9591
+ux: first step abs err > 1e-08*peak : -1
+ux: max abs err=2.226e-10 (rel to peak 9.497e-09) at step 15439; err at steps 5000/10000/15000/15600/15860 = 2.91e-13 3.07e-13 6.25e-11 1.36e-10 3.50e-11
+ux: window(15340..15600) max |signal| = 6.233e-04 (peak 2.344e-02)
+uy: first step abs err > 1e-12*peak : 862
+uy: first step abs err > 1e-10*peak : 10346
+uy: first step abs err > 1e-08*peak : -1
+uy: max abs err=1.002e-10 (rel to peak 4.178e-09) at step 14850; err at steps 5000/10000/15000/15600/15860 = 5.29e-13 1.21e-12 8.18e-11 2.26e-11 1.88e-11
+uy: window(15340..15600) max |signal| = 9.856e-04 (peak 2.398e-02)
+th: first step abs err > 1e-12*peak : 920
+th: first step abs err > 1e-10*peak : 8085
+th: first step abs err > 1e-08*peak : 15068
+th: max abs err=9.042e-12 (rel to peak 1.000e-08) at step 15069; err at steps 5000/10000/15000/15600/15860 = 2.02e-14 1.16e-13 2.10e-12 4.23e-12 2.21e-12
+th: window(15340..15600) max |signal| = 7.731e-05 (peak 9.039e-04)
+=== rec 14 D3 RA ===
+input_sha_note: inputs/PEER14.csv dt=0.01 n=15999
+fcmd steps equal=1 maxdiff_Hz=1.590e-10 | kcmd identical=1 | thcmd steps equal=1
+thcmd diffs > 1e-9 rad (pre-registered limit): count=15 of 61; steps: 10140 10400 10660 12480 13260 13520 13780 14040 14300 14560 14820 15080 15340 15600 15860
+thcmd diff by command (rad): first10= 2.9e-15 1.2e-13 5.0e-13 1.2e-12 3.1e-13 2.6e-12 2.4e-12 6.6e-12 5.5e-12 1.0e-11 ... last5= 1.4e-08 4.8e-08 7.3e-08 1.9e-07 1.5e-07
+ux: first step abs err > 1e-12*peak : 1228
+ux: first step abs err > 1e-10*peak : 13092
+ux: first step abs err > 1e-08*peak : -1
+ux: max abs err=7.457e-11 (rel to peak 3.181e-09) at step 15844; err at steps 5000/10000/15000/15600/15860 = 1.37e-13 2.03e-13 4.68e-11 9.55e-12 7.03e-11
+ux: window(15340..15600) max |signal| = 2.712e-04 (peak 2.344e-02)
+uy: first step abs err > 1e-12*peak : 845
+uy: first step abs err > 1e-10*peak : 13387
+uy: first step abs err > 1e-08*peak : -1
+uy: max abs err=1.152e-10 (rel to peak 4.802e-09) at step 15580; err at steps 5000/10000/15000/15600/15860 = 1.30e-13 1.54e-13 8.66e-12 1.07e-10 5.27e-11
+uy: window(15340..15600) max |signal| = 1.161e-04 (peak 2.399e-02)
+th: first step abs err > 1e-12*peak : 876
+th: first step abs err > 1e-10*peak : 13224
+th: first step abs err > 1e-08*peak : 15930
+th: max abs err=9.464e-12 (rel to peak 1.045e-08) at step 15944; err at steps 5000/10000/15000/15600/15860 = 1.18e-14 2.69e-14 1.04e-13 4.73e-12 3.50e-13
+th: window(15340..15600) max |signal| = 2.491e-05 (peak 9.052e-04)
+=== rec 15 D0 RA ===
+input_sha_note: inputs/PEER15.csv dt=0.01 n=16000
+fcmd steps equal=1 maxdiff_Hz=3.915e-10 | kcmd identical=1 | thcmd steps equal=1
+thcmd diffs > 1e-9 rad (pre-registered limit): count=8 of 61; steps: 13000 13260 14040 14300 14820 15080 15600 15860
+thcmd diff by command (rad): first10= 1.9e-13 3.4e-13 4.5e-14 2.0e-13 4.4e-12 1.0e-12 4.1e-13 6.8e-14 2.7e-13 2.4e-13 ... last5= 3.3e-09 5.6e-09 4.4e-10 2.7e-09 7.8e-09
+ux: first step abs err > 1e-12*peak : 3439
+ux: first step abs err > 1e-10*peak : 12087
+ux: first step abs err > 1e-08*peak : -1
+ux: max abs err=3.369e-11 (rel to peak 6.790e-10) at step 14931; err at steps 5000/10000/15000/15600/15860 = 1.82e-13 8.03e-14 1.82e-11 8.25e-12 1.18e-11
+ux: window(15340..15600) max |signal| = 5.378e-04 (peak 4.962e-02)
+uy: first step abs err > 1e-12*peak : 3758
+uy: first step abs err > 1e-10*peak : 14008
+uy: first step abs err > 1e-08*peak : -1
+uy: max abs err=1.465e-11 (rel to peak 3.044e-10) at step 14541; err at steps 5000/10000/15000/15600/15860 = 9.28e-15 2.18e-14 4.28e-12 5.10e-12 6.20e-12
+uy: window(15340..15600) max |signal| = 3.135e-03 (peak 4.813e-02)
+th: first step abs err > 1e-12*peak : 3690
+th: first step abs err > 1e-10*peak : 14321
+th: first step abs err > 1e-08*peak : -1
+th: max abs err=1.059e-12 (rel to peak 3.991e-10) at step 14947; err at steps 5000/10000/15000/15600/15860 = 3.04e-15 2.74e-14 5.81e-13 2.12e-13 5.72e-13
+th: window(15340..15600) max |signal| = 9.207e-05 (peak 2.653e-03)
+=== rec 15 D4 RA ===
+input_sha_note: inputs/PEER15.csv dt=0.01 n=16000
+fcmd steps equal=1 maxdiff_Hz=2.266e-11 | kcmd identical=1 | thcmd steps equal=1
+thcmd diffs > 1e-9 rad (pre-registered limit): count=1 of 61; steps: 15600
+thcmd diff by command (rad): first10= 9.6e-14 6.6e-14 8.8e-13 9.2e-13 3.5e-14 1.7e-12 2.4e-12 1.2e-12 6.4e-13 3.0e-13 ... last5= 4.9e-10 9.3e-11 1.0e-10 1.3e-09 4.4e-10
+ux: first step abs err > 1e-12*peak : 3228
+ux: first step abs err > 1e-10*peak : 15136
+ux: first step abs err > 1e-08*peak : -1
+ux: max abs err=5.744e-12 (rel to peak 1.253e-10) at step 15329; err at steps 5000/10000/15000/15600/15860 = 5.77e-13 8.26e-14 3.15e-12 1.00e-12 1.05e-12
+ux: window(15340..15600) max |signal| = 1.677e-03 (peak 4.586e-02)
+uy: first step abs err > 1e-12*peak : 4000
+uy: first step abs err > 1e-10*peak : -1
+uy: first step abs err > 1e-08*peak : -1
+uy: max abs err=3.211e-12 (rel to peak 6.694e-11) at step 14589; err at steps 5000/10000/15000/15600/15860 = 3.40e-14 4.12e-13 7.66e-13 5.38e-13 8.77e-13
+uy: window(15340..15600) max |signal| = 1.480e-03 (peak 4.797e-02)
+th: first step abs err > 1e-12*peak : 3765
+th: first step abs err > 1e-10*peak : 14621
+th: first step abs err > 1e-08*peak : -1
+th: max abs err=3.109e-13 (rel to peak 1.149e-10) at step 14948; err at steps 5000/10000/15000/15600/15860 = 1.15e-14 1.15e-14 1.65e-13 6.25e-14 1.09e-14
+th: window(15340..15600) max |signal| = 9.187e-05 (peak 2.706e-03)

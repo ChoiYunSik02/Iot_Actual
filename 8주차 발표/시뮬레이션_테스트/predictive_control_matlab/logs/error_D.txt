@@ -1,0 +1,15 @@
+[MATLAB:ISMEMBER:InputClass] 다음 사용 중 오류가 발생함: cell/ismember (34번 라인)
+cell 클래스의 입력 인수 A와 double 클래스의 입력 인수 B는 둘 중 하나가 문자형 벡터가 아닌 한, 문자형 벡터로 구성된 셀형 배열이어야 합니다.
+
+오류 발생: run_benchmarks (20번 라인)
+if any(ismember(events, cfg.data.test_events)) && ~isfield(opt, 'allow_test')
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+오류 발생: diagnose_D>rb (68번 라인)
+    B = run_benchmarks(tag, methods, dev, o);
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+오류 발생: diagnose_D (39번 라인)
+B0 = rb(opt, root, ['D_main' sfx], [{'R', 'FIX'}, C1m], dev, struct('cfg', cfg, 'diag_true', true, 'max_seconds', opt.max_seconds));
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+오류 발생: run_week08_laptop (52번 라인)
+                diagnose_D();
+                ^^^^^^^^^^^^

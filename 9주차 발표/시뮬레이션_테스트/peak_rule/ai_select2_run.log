@@ -1,0 +1,19 @@
+100/1488 3s
+200/1488 4s
+300/1488 30s
+400/1488 101s
+500/1488 145s
+600/1488 169s
+700/1488 197s
+800/1488 245s
+900/1488 338s
+1000/1488 403s
+1100/1488 488s
+1200/1488 515s
+1300/1488 586s
+1400/1488 633s
+1488 runs 668s, 19 events
+all rotations  사건 평균, p0.5 대비 %p: p05 +0.00  const -0.03  AI -0.04  oracle +1.30  always_p0 -0.61  always_p1 -0.61  always_maxabs -0.01  always_LP -0.02  AI_vs_const_better_events 7  AI_vs_const_worse_events 11
+unrotated      사건 평균, p0.5 대비 %p: p05 +0.00  const -0.01  AI +0.11  oracle +1.82  always_p0 -0.38  always_p1 -0.36  always_maxabs +0.17  always_LP +0.15  AI_vs_const_better_events 5  AI_vs_const_worse_events 8
+AI 선택 횟수 {'p0.5': 82, 'p0': 21, 'p1': 17, 'maxabs': 63, 'LP': 65}  고정값 선택 {'p0.5': 228, 'p0': 0, 'p1': 0, 'maxabs': 20, 'LP': 0}
+채택: False

@@ -1,0 +1,7 @@
+a4c8b8bc4e4a1054  models/torch_pilot8_seed8401.pt
+0e860a8611f47faf  models/torch_pilot8_seed8401_weights.mat
+a17ee2bd443855f5  models/joint_scorer_seed8401.pt
+141f1dfba4a676ce  models/joint_scorer_seed8401.json
+af212c51b9411819  config/scales.json
+c4569a5ef9164ed5  config/experiment.json
+1f8be9ebecf27156  data/joint_teacher.csv

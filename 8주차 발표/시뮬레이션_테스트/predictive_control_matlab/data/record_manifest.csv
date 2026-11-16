@@ -1,0 +1,12 @@
+﻿record_id,event_id,station,x_component,y_component,source,unit_raw,dt_raw,magnitude_unverified,distance_type,distance_km,filtering,n_samples_dt001,split
+PEER01,ImperialValley1979,El Centro Array #11,IMPVALL-E11140,IMPVALL-E11230,"PEER NGA-West2 (.AT2, 페이퍼/입력/PEER)",g,AT2 header,6.53,unknown,unknown,PEER 처리본(원 처리 이력 미기록); 평균 제거·선형 재표본화·성분별 PGA 0.35 m/s²,4947,dev
+PEER02,ImperialValley1979,Aeropuerto Mexicali,IMPVALL-AEP045,IMPVALL-AEP315,"PEER NGA-West2 (.AT2, 페이퍼/입력/PEER)",g,AT2 header,6.53,unknown,unknown,PEER 처리본(원 처리 이력 미기록); 평균 제거·선형 재표본화·성분별 PGA 0.35 m/s²,2477,dev
+PEER03,ImperialValley1979,El Centro Differential Array,IMPVALL-EDA270,IMPVALL-EDA360,"PEER NGA-West2 (.AT2, 페이퍼/입력/PEER)",g,AT2 header,6.53,unknown,unknown,PEER 처리본(원 처리 이력 미기록); 평균 제거·선형 재표본화·성분별 PGA 0.35 m/s²,4896,dev
+PEER04,ImperialValley1979,Brawley Airport,IMPVALL-BRA225,IMPVALL-BRA315,"PEER NGA-West2 (.AT2, 페이퍼/입력/PEER)",g,AT2 header,6.53,unknown,unknown,PEER 처리본(원 처리 이력 미기록); 평균 제거·선형 재표본화·성분별 PGA 0.35 m/s²,4788,dev
+PEER11,ImperialValley1979,El Centro Array #3,IMPVALL-E03140,IMPVALL-E03230,"PEER NGA-West2 (.AT2, 페이퍼/입력/PEER)",g,AT2 header,6.53,unknown,unknown,PEER 처리본(원 처리 이력 미기록); 평균 제거·선형 재표본화·성분별 PGA 0.35 m/s²,4955,dev
+PEER13,Northridge1994,Pacoima Dam,NORTHR-PAC175,NORTHR-PAC265,"PEER NGA-West2 (.AT2, 페이퍼/입력/PEER)",g,AT2 header,6.69,unknown,unknown,PEER 처리본(원 처리 이력 미기록); 평균 제거·선형 재표본화·성분별 PGA 0.35 m/s²,2999,dev
+PEER14,Kobe1995,KJMA,KOBE-KJM000,KOBE-KJM090,"PEER NGA-West2 (.AT2, 페이퍼/입력/PEER)",g,AT2 header,6.9,unknown,unknown,PEER 처리본(원 처리 이력 미기록); 평균 제거·선형 재표본화·성분별 PGA 0.35 m/s²,15999,dev
+PEER15,ChiChi1999,CHY006,CHICHI-CHY006-N,CHICHI-CHY006-W,"PEER NGA-West2 (.AT2, 페이퍼/입력/PEER)",g,AT2 header,7.62,unknown,unknown,PEER 처리본(원 처리 이력 미기록); 평균 제거·선형 재표본화·성분별 PGA 0.35 m/s²,16000,dev
+ElCentro_1940,ElCentro1940,El Centro (Imperial Valley 1940),elcentro_NS.txt,elcentro_EW.txt,6주차 보유기록,g,file,6.95,unknown,unknown,평균 제거·선형 재표본화·성분별 PGA 0.35 m/s²,6375,dev
+Pohang_2017_BUS2,Pohang2017,BUS2,pohang_BUS2_BHE.txt,pohang_BUS2_BHN.txt,기상청 (6주차 보유기록),m/s2,file,5.4,unknown,unknown,"한국 기록: 최대값 5% 문턱 5 s 전부터 60 s 절취(전체 기록 사용, 오프라인); 평균 제거·선형 재표본화·성분별 PGA 0.35 m/s²",6991,dev
+Gyeongju_2016_CHJ2,Gyeongju2016,CHJ2,gyeongju_CHJ2_BHE.txt,gyeongju_CHJ2_BHN.txt,기상청 (6주차 보유기록),m/s2,file,5.8,unknown,unknown,"한국 기록: 최대값 5% 문턱 5 s 전부터 60 s 절취(전체 기록 사용, 오프라인); 평균 제거·선형 재표본화·성분별 PGA 0.35 m/s²",6996,dev

@@ -1,0 +1,6 @@
+env,method,S,dS_vs_R,dS_max3,dS_rms3,dS_uxmax,dS_uxrms,dS_uymax,dS_uyrms,dS_thmax,dS_thrms,Jtot_gain_pct,win_gain_chosen_pct,win_gain_oracle_feasible_pct,win_gain_oracle_free_pct,rank_corr_Jpred_Jtrue,n_decisions,frac_choose_R,frac_torsion_binding,frac_true_torsion_worse,mean_abs_df_vs_R_hz,mean_abs_dth_vs_R_deg,binding_cost_pct
+MATLAB 26.1.0.3346908 (R2026a) Update 5,R,12.1018,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,,0.0000,0.0000,NaN,NaN,NaN,NaN,0.0000,NaN,NaN,NaN,NaN,NaN
+NaN,MATLAB 26.1.0.3346908 (R2026a) Update 5,SIMPLE-zero,12.1988,0.0970,-0.4124,0.6064,-0.1108,1.0976,-0.5110,0.5168,-0.6153,,0.2047,1.5012,15.5921,13.6447,30.4694,9.303026e-01,107.0000,0.5234,0.6636,0.07477,0.007,5.8292
+2.223871e+01,MATLAB 26.1.0.3346908 (R2026a) Update 5,SIMPLE-persistence,12.8819,0.7801,0.4710,1.0893,-0.1790,4.2053,0.9988,0.6109,0.5931,,-1.5482,5.0544,22.1049,21.3629,32.3184,8.735950e-01,107.0000,0.3551,0.4393,0.08411,0.007,8.8532
+2.246787e+01,MATLAB 26.1.0.3346908 (R2026a) Update 5,PREVIEW-C1,12.4644,0.3626,0.2502,0.4749,-0.0261,0.0009,0.4972,0.8413,0.2796,,0.5827,1.7817,14.2030,14.2030,27.8993,9.999148e-01,107.0000,0.5701,0.5981,0.00000,0.004,5.4654
+2.289853e+01,

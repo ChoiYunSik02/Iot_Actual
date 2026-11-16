@@ -1,0 +1,12 @@
+자료 matlab-v7.3: train (14581, 500, 3), val (3695, 500, 3), real_val (300, 500, 3)
+epoch   1  train 1.0704  val 1.0148  44 s
+epoch   2  train 1.0639  val 1.0115  88 s
+epoch   3  train 1.0610  val 1.0100  132 s
+epoch   4  train 1.0581  val 1.0103  181 s
+epoch   5  train 1.0563  val 1.0082  231 s
+epoch   6  train 1.0548  val 1.0080  278 s
+epoch   7  train 1.0528  val 1.0066  321 s
+epoch   8  train 1.0510  val 1.0061  362 s
+epoch   9  train 1.0504  val 1.0057  403 s
+epoch  10  train 1.0489  val 1.0067  447 s
+최저 검증 MSE 1.0057 (epoch 9), numpy 대조 2.48e-07, 학습 448 s → C:\Users\cys\Desktop\iot-actuator-week08\predictive_control_matlab\models\torch_smoke_seed8401.pt

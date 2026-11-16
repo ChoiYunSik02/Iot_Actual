@@ -1,0 +1,39 @@
+# 중복·잘못 받은 파일
+논문.zip
+논문/_잘못받은파일/
+
+# Office 잠금 파일
+~$*
+
+# Python
+__pycache__/
+*.pyc
+
+# MATLAB / Simulink 빌드 산출물
+slprj/
+*.slxc
+*.asv
+*.autosave
+matlab/w5/*.log
+
+# AI 학습 데이터 (다시 만들 수 있음, 용량 큼)
+페이퍼/코드/data/
+
+# 다운로드 원본·중복 압축 (용량 큼, 정리된 기록은 주차 폴더에 있음)
+ai_improvement_v4/
+ai_improvement_v4.zip
+UnscaledAccRecord*/
+UnscaledAccRecord*.zip
+261107_earthquake/
+
+# 중단된 실행의 중간 체크포인트
+*_ckpt*.jsonl
+
+# 10주차 지진 AI 학습 중간 산출물 (자료 캐시·겹별 예측, 다시 만들 수 있음)
+10주차 발표/시뮬레이션_테스트/results_ground_ai*/*.npz
+10주차 발표/시뮬레이션_테스트/results_ground_ai_smoke/
+10주차 발표/시뮬레이션_테스트/results_valve_oracle/*.npz
+10주차 발표/시뮬레이션_테스트/results_a0b_smoke/
+10주차 발표/시뮬레이션_테스트/results_b0/nn_cache/
+10주차 발표/시뮬레이션_테스트/results_b0/*_smoke.json
+10주차 발표/시뮬레이션_테스트/results_b2/*/fold_*.json

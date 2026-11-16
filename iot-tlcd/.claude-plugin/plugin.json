@@ -1,0 +1,15 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "iot-tlcd",
+  "version": "0.1.0",
+  "description": "TLCD 기반 건물 능동제진 연구팀용 도구 모음 — 1주차 PPT에서 추출한 디자인 시스템으로 주간보고서를 생성하고, 연구 배경·선행연구·일정 컨텍스트를 팀원 전체가 공유합니다.",
+  "author": {
+    "name": "박정주",
+    "email": "jungju3756@gmail.com"
+  },
+  "keywords": ["pptx", "weekly-report", "tlcd", "simulink", "structural-control"],
+  "skills": [
+    "./skills/weekly-report",
+    "./skills/tlcd-brief"
+  ]
+}

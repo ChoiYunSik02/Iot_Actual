@@ -1,0 +1,14 @@
+100/792 3s
+200/792 12s
+300/792 87s
+400/792 154s
+500/792 422s
+600/792 565s
+700/792 672s
+792 runs 740s  B better in 45% of cases, AI accuracy (LOEO) 41%
+all rotations          사건 평균, 항상 A 대비 %p: A +0.00  B -0.30  const +0.00  AI -0.25  oracle +0.50
+unrotated (원래 방향)      사건 평균, 항상 A 대비 %p: A +0.00  B -0.14  const +0.00  AI -0.03  oracle +0.58
+  Chi-Chi    AI-A -0.77  oracle-A +0.41  B-A -0.77
+  Imperial   AI-A -0.40  oracle-A +0.38  B-A -0.41
+  Kobe       AI-A +0.17  oracle-A +0.51  B-A -0.55
+  Northridge-01 AI-A +0.00  oracle-A +0.69  B-A +0.54

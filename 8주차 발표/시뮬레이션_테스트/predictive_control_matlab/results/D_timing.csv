@@ -1,0 +1,4 @@
+env,method,d_s,d_cmd,d_fc,select_s_p50,select_s_p95,select_s_max,forecast_s_p50,forecast_s_p95,n_pump_angle_decisions,n_late,n_horizon_fallback,n_no_forecast,ready_to_apply_s_min,ready_to_apply_s_med,ready_to_apply_s_max,origin_to_apply_s_med,remaining_horizon_s_min,remaining_horizon_s_med,forecast_busy_skips,forecast_over_0.2s,S_actual,S_nominal0,dS_actual,dS_nominal0
+MATLAB 26.1.0.3346908 (R2026a) Update 5,SIMPLE-zero,0,51,1,0.4802,0.4957,0.4991,4e-06,8.8e-06,112,0,0,4,0.590,0.590,0.590,0.600,3.400,3.400,0,0,12.4833,12.1988,0.2784,0.0970
+MATLAB 26.1.0.3346908 (R2026a) Update 5,SIMPLE-persistence,0,51,1,0.4791,0.4949,0.5166,5.8e-06,1.38e-05,112,1,0,4,0.590,0.590,0.590,0.600,3.400,3.400,0,0,12.1573,12.8819,-0.0475,0.7801
+MATLAB 26.1.0.3346908 (R2026a) Update 5,PREVIEW-C1,0,51,1,0.4832,0.4979,0.5035,2.23e-05,3.68e-05,112,0,0,4,0.590,0.590,0.590,0.600,3.400,3.400,0,0,12.7340,12.4644,0.5292,0.3626

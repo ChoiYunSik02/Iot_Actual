@@ -1,0 +1,1043 @@
+{
+ "tag": "_VER1",
+ "rule_record": "PEER11",
+ "identity": {
+  "fixed": [
+   33,
+   33
+  ],
+  "actual": [
+   30,
+   33
+  ]
+ },
+ "changed_vs_old": [
+  [
+   "PEER13",
+   "J-AI",
+   0.00943873079496166
+  ],
+  [
+   "PEER15",
+   "J-AI",
+   0.058849681371806684
+  ],
+  [
+   "Gyeongju_2016_CHJ2",
+   "J-AI",
+   0.03409591692698739
+  ]
+ ],
+ "budget": [
+  0.27,
+  0.22
+ ],
+ "summary": {
+  "이번 실행 VER1|fixed|A 원문 공통 8쌍 (4사건)": {
+   "n_records": 8,
+   "n_events": 4,
+   "R_record_mean6": 16.21755916078152,
+   "AI_record_mean6": 20.657401079188134,
+   "delta_record_mean": 4.439841918406614,
+   "R_event_equal6": 16.17513845772091,
+   "AI_event_equal6": 19.684834148669896,
+   "delta_event_equal": 3.5096956909489876,
+   "n_events_better": 3,
+   "n_events_worse": 1,
+   "violation_events": 2,
+   "violation_event_names": "ImperialValley1979;Kobe1995",
+   "violation_records": 2,
+   "violation_record_names": "PEER02;PEER14",
+   "aux_violation_events_by_event_mean": 1,
+   "aux_names": "Kobe1995",
+   "worst_record_torsion_margin_pp": -2.8226650390484442,
+   "event_delta_detail": "ImperialValley1979=+5.37;Northridge1994=+2.06;Kobe1995=-0.52;ChiChi1999=+7.13",
+   "delta_by_index": "X 최대=+1.61;X RMS=+2.96;Y 최대=+2.25;Y RMS=+7.79;θ 최대=+5.44;θ RMS=+6.59"
+  },
+  "이번 실행 VER1|fixed|A+B 개발 11기록 (7사건)": {
+   "n_records": 11,
+   "n_events": 7,
+   "R_record_mean6": 14.113262545119369,
+   "AI_record_mean6": 18.2934474462938,
+   "delta_record_mean": 4.180184901174432,
+   "R_event_equal6": 12.886566934420651,
+   "AI_event_equal6": 16.386864267200906,
+   "delta_event_equal": 3.5002973327802547,
+   "n_events_better": 6,
+   "n_events_worse": 1,
+   "violation_events": 4,
+   "violation_event_names": "Gyeongju2016;ImperialValley1979;Kobe1995;Pohang2017",
+   "violation_records": 4,
+   "violation_record_names": "PEER02;PEER14;Pohang_2017_BUS2;Gyeongju_2016_CHJ2",
+   "aux_violation_events_by_event_mean": 3,
+   "aux_names": "Kobe1995;Pohang2017;Gyeongju2016",
+   "worst_record_torsion_margin_pp": -2.8226650390484442,
+   "event_delta_detail": "ImperialValley1979=+5.37;Northridge1994=+2.06;Kobe1995=-0.52;ChiChi1999=+7.13;ElCentro1940=+4.65;Pohang2017=+0.15;Gyeongju2016=+5.66",
+   "delta_by_index": "X 최대=+1.72;X RMS=+4.06;Y 최대=+2.69;Y RMS=+7.27;θ 최대=+3.91;θ RMS=+5.43"
+  },
+  "이번 실행 VER1|fixed|개발 3사건 (고베·El Centro·포항)": {
+   "n_records": 3,
+   "n_events": 3,
+   "R_record_mean6": 12.204831117788752,
+   "AI_record_mean6": 13.631027733545546,
+   "delta_record_mean": 1.426196615756794,
+   "R_event_equal6": 12.204831117788757,
+   "AI_event_equal6": 13.631027733545542,
+   "delta_event_equal": 1.4261966157567851,
+   "n_events_better": 2,
+   "n_events_worse": 1,
+   "violation_events": 2,
+   "violation_event_names": "Kobe1995;Pohang2017",
+   "violation_records": 2,
+   "violation_record_names": "PEER14;Pohang_2017_BUS2",
+   "aux_violation_events_by_event_mean": 2,
+   "aux_names": "Kobe1995;Pohang2017",
+   "worst_record_torsion_margin_pp": -1.6400494910248078,
+   "event_delta_detail": "Kobe1995=-0.52;ElCentro1940=+4.65;Pohang2017=+0.15",
+   "delta_by_index": "X 최대=+1.04;X RMS=+3.33;Y 최대=-0.05;Y RMS=+2.52;θ 최대=+0.28;θ RMS=+1.43"
+  },
+  "이번 실행 VER1|actual|A 원문 공통 8쌍 (4사건)": {
+   "n_records": 8,
+   "n_events": 4,
+   "R_record_mean6": 16.21755916078152,
+   "AI_record_mean6": 20.657401079188134,
+   "delta_record_mean": 4.439841918406614,
+   "R_event_equal6": 16.17513845772091,
+   "AI_event_equal6": 19.684834148669896,
+   "delta_event_equal": 3.5096956909489876,
+   "n_events_better": 3,
+   "n_events_worse": 1,
+   "violation_events": 2,
+   "violation_event_names": "ImperialValley1979;Kobe1995",
+   "violation_records": 2,
+   "violation_record_names": "PEER02;PEER14",
+   "aux_violation_events_by_event_mean": 1,
+   "aux_names": "Kobe1995",
+   "worst_record_torsion_margin_pp": -2.8226650390484442,
+   "event_delta_detail": "ImperialValley1979=+5.37;Northridge1994=+2.06;Kobe1995=-0.52;ChiChi1999=+7.13",
+   "delta_by_index": "X 최대=+1.61;X RMS=+2.96;Y 최대=+2.25;Y RMS=+7.79;θ 최대=+5.44;θ RMS=+6.59"
+  },
+  "이번 실행 VER1|actual|A+B 개발 11기록 (7사건)": {
+   "n_records": 11,
+   "n_events": 7,
+   "R_record_mean6": 14.113262545119369,
+   "AI_record_mean6": 18.2934474462938,
+   "delta_record_mean": 4.180184901174432,
+   "R_event_equal6": 12.886566934420651,
+   "AI_event_equal6": 16.386864267200906,
+   "delta_event_equal": 3.5002973327802547,
+   "n_events_better": 6,
+   "n_events_worse": 1,
+   "violation_events": 4,
+   "violation_event_names": "Gyeongju2016;ImperialValley1979;Kobe1995;Pohang2017",
+   "violation_records": 4,
+   "violation_record_names": "PEER02;PEER14;Pohang_2017_BUS2;Gyeongju_2016_CHJ2",
+   "aux_violation_events_by_event_mean": 3,
+   "aux_names": "Kobe1995;Pohang2017;Gyeongju2016",
+   "worst_record_torsion_margin_pp": -2.8226650390484442,
+   "event_delta_detail": "ImperialValley1979=+5.37;Northridge1994=+2.06;Kobe1995=-0.52;ChiChi1999=+7.13;ElCentro1940=+4.65;Pohang2017=+0.15;Gyeongju2016=+5.66",
+   "delta_by_index": "X 최대=+1.72;X RMS=+4.06;Y 최대=+2.69;Y RMS=+7.27;θ 최대=+3.91;θ RMS=+5.43"
+  },
+  "이번 실행 VER1|actual|개발 3사건 (고베·El Centro·포항)": {
+   "n_records": 3,
+   "n_events": 3,
+   "R_record_mean6": 12.204831117788752,
+   "AI_record_mean6": 13.631027733545546,
+   "delta_record_mean": 1.426196615756794,
+   "R_event_equal6": 12.204831117788757,
+   "AI_event_equal6": 13.631027733545542,
+   "delta_event_equal": 1.4261966157567851,
+   "n_events_better": 2,
+   "n_events_worse": 1,
+   "violation_events": 2,
+   "violation_event_names": "Kobe1995;Pohang2017",
+   "violation_records": 2,
+   "violation_record_names": "PEER14;Pohang_2017_BUS2",
+   "aux_violation_events_by_event_mean": 2,
+   "aux_names": "Kobe1995;Pohang2017",
+   "worst_record_torsion_margin_pp": -1.6400494910248078,
+   "event_delta_detail": "Kobe1995=-0.52;ElCentro1940=+4.65;Pohang2017=+0.15",
+   "delta_by_index": "X 최대=+1.04;X RMS=+3.33;Y 최대=-0.05;Y RMS=+2.52;θ 최대=+0.28;θ RMS=+1.43"
+  },
+  "기존 실행 JCX/JCA|fixed|A 원문 공통 8쌍 (4사건)": {
+   "n_records": 8,
+   "n_events": 4,
+   "R_record_mean6": 16.21755916078152,
+   "AI_record_mean6": 20.657401079188134,
+   "delta_record_mean": 4.439841918406614,
+   "R_event_equal6": 16.17513845772091,
+   "AI_event_equal6": 19.684834148669896,
+   "delta_event_equal": 3.5096956909489876,
+   "n_events_better": 3,
+   "n_events_worse": 1,
+   "violation_events": 2,
+   "violation_event_names": "ImperialValley1979;Kobe1995",
+   "violation_records": 2,
+   "violation_record_names": "PEER02;PEER14",
+   "aux_violation_events_by_event_mean": 1,
+   "aux_names": "Kobe1995",
+   "worst_record_torsion_margin_pp": -2.8226650390484442,
+   "event_delta_detail": "ImperialValley1979=+5.37;Northridge1994=+2.06;Kobe1995=-0.52;ChiChi1999=+7.13",
+   "delta_by_index": "X 최대=+1.61;X RMS=+2.96;Y 최대=+2.25;Y RMS=+7.79;θ 최대=+5.44;θ RMS=+6.59"
+  },
+  "기존 실행 JCX/JCA|fixed|A+B 개발 11기록 (7사건)": {
+   "n_records": 11,
+   "n_events": 7,
+   "R_record_mean6": 14.113262545119369,
+   "AI_record_mean6": 18.2934474462938,
+   "delta_record_mean": 4.180184901174432,
+   "R_event_equal6": 12.886566934420651,
+   "AI_event_equal6": 16.386864267200906,
+   "delta_event_equal": 3.5002973327802547,
+   "n_events_better": 6,
+   "n_events_worse": 1,
+   "violation_events": 4,
+   "violation_event_names": "Gyeongju2016;ImperialValley1979;Kobe1995;Pohang2017",
+   "violation_records": 4,
+   "violation_record_names": "PEER02;PEER14;Pohang_2017_BUS2;Gyeongju_2016_CHJ2",
+   "aux_violation_events_by_event_mean": 3,
+   "aux_names": "Kobe1995;Pohang2017;Gyeongju2016",
+   "worst_record_torsion_margin_pp": -2.8226650390484442,
+   "event_delta_detail": "ImperialValley1979=+5.37;Northridge1994=+2.06;Kobe1995=-0.52;ChiChi1999=+7.13;ElCentro1940=+4.65;Pohang2017=+0.15;Gyeongju2016=+5.66",
+   "delta_by_index": "X 최대=+1.72;X RMS=+4.06;Y 최대=+2.69;Y RMS=+7.27;θ 최대=+3.91;θ RMS=+5.43"
+  },
+  "기존 실행 JCX/JCA|fixed|개발 3사건 (고베·El Centro·포항)": {
+   "n_records": 3,
+   "n_events": 3,
+   "R_record_mean6": 12.204831117788752,
+   "AI_record_mean6": 13.631027733545546,
+   "delta_record_mean": 1.426196615756794,
+   "R_event_equal6": 12.204831117788757,
+   "AI_event_equal6": 13.631027733545542,
+   "delta_event_equal": 1.4261966157567851,
+   "n_events_better": 2,
+   "n_events_worse": 1,
+   "violation_events": 2,
+   "violation_event_names": "Kobe1995;Pohang2017",
+   "violation_records": 2,
+   "violation_record_names": "PEER14;Pohang_2017_BUS2",
+   "aux_violation_events_by_event_mean": 2,
+   "aux_names": "Kobe1995;Pohang2017",
+   "worst_record_torsion_margin_pp": -1.6400494910248078,
+   "event_delta_detail": "Kobe1995=-0.52;ElCentro1940=+4.65;Pohang2017=+0.15",
+   "delta_by_index": "X 최대=+1.04;X RMS=+3.33;Y 최대=-0.05;Y RMS=+2.52;θ 최대=+0.28;θ RMS=+1.43"
+  },
+  "기존 실행 JCX/JCA|actual|A 원문 공통 8쌍 (4사건)": {
+   "n_records": 8,
+   "n_events": 4,
+   "R_record_mean6": 16.21755916078152,
+   "AI_record_mean6": 20.610507270918884,
+   "delta_record_mean": 4.392948110137365,
+   "R_event_equal6": 16.17513845772091,
+   "AI_event_equal6": 19.591046532131394,
+   "delta_event_equal": 3.415908074410485,
+   "n_events_better": 3,
+   "n_events_worse": 1,
+   "violation_events": 2,
+   "violation_event_names": "ImperialValley1979;Kobe1995",
+   "violation_records": 2,
+   "violation_record_names": "PEER02;PEER14",
+   "aux_violation_events_by_event_mean": 1,
+   "aux_names": "Kobe1995",
+   "worst_record_torsion_margin_pp": -2.8226650390484442,
+   "event_delta_detail": "ImperialValley1979=+5.37;Northridge1994=+1.95;Kobe1995=-0.52;ChiChi1999=+6.87",
+   "delta_by_index": "X 최대=+1.35;X RMS=+3.46;Y 최대=+2.36;Y RMS=+7.32;θ 최대=+5.41;θ RMS=+6.47"
+  },
+  "기존 실행 JCX/JCA|actual|A+B 개발 11기록 (7사건)": {
+   "n_records": 11,
+   "n_events": 7,
+   "R_record_mean6": 14.113262545119369,
+   "AI_record_mean6": 18.38411987940008,
+   "delta_record_mean": 4.270857334280713,
+   "R_event_equal6": 12.886566934420651,
+   "AI_event_equal6": 16.529349519225057,
+   "delta_event_equal": 3.642782584804406,
+   "n_events_better": 6,
+   "n_events_worse": 1,
+   "violation_events": 3,
+   "violation_event_names": "ImperialValley1979;Kobe1995;Pohang2017",
+   "violation_records": 3,
+   "violation_record_names": "PEER02;PEER14;Pohang_2017_BUS2",
+   "aux_violation_events_by_event_mean": 2,
+   "aux_names": "Kobe1995;Pohang2017",
+   "worst_record_torsion_margin_pp": -2.8226650390484442,
+   "event_delta_detail": "ImperialValley1979=+5.37;Northridge1994=+1.95;Kobe1995=-0.52;ChiChi1999=+6.87;ElCentro1940=+4.65;Pohang2017=+0.15;Gyeongju2016=+7.03",
+   "delta_by_index": "X 최대=+1.84;X RMS=+4.56;Y 최대=+2.62;Y RMS=+7.05;θ 최대=+4.05;θ RMS=+5.51"
+  },
+  "기존 실행 JCX/JCA|actual|개발 3사건 (고베·El Centro·포항)": {
+   "n_records": 3,
+   "n_events": 3,
+   "R_record_mean6": 12.204831117788752,
+   "AI_record_mean6": 13.631027733545546,
+   "delta_record_mean": 1.426196615756794,
+   "R_event_equal6": 12.204831117788757,
+   "AI_event_equal6": 13.631027733545542,
+   "delta_event_equal": 1.4261966157567851,
+   "n_events_better": 2,
+   "n_events_worse": 1,
+   "violation_events": 2,
+   "violation_event_names": "Kobe1995;Pohang2017",
+   "violation_records": 2,
+   "violation_record_names": "PEER14;Pohang_2017_BUS2",
+   "aux_violation_events_by_event_mean": 2,
+   "aux_names": "Kobe1995;Pohang2017",
+   "worst_record_torsion_margin_pp": -1.6400494910248078,
+   "event_delta_detail": "Kobe1995=-0.52;ElCentro1940=+4.65;Pohang2017=+0.15",
+   "delta_by_index": "X 최대=+1.04;X RMS=+3.33;Y 최대=-0.05;Y RMS=+2.52;θ 최대=+0.28;θ RMS=+1.43"
+  }
+ },
+ "ops": {
+  "fixed": {
+   "timing": "고정 시간축",
+   "record_id": "합계",
+   "n_commands": 1004,
+   "calc_median_s": 0.1477,
+   "calc_p95_s": 0.2309,
+   "calc_max_s": 0.2812,
+   "budget_slow_s": 0.27,
+   "budget_fast_s": 0.22,
+   "deadline_miss": 0,
+   "deadline_fallback_to_R": 0,
+   "chose_R": 94,
+   "chose_candidate": 468,
+   "no_feasible": 379,
+   "no_forecast": 63
+  },
+  "actual": {
+   "timing": "실측 지연",
+   "record_id": "합계",
+   "n_commands": 1004,
+   "calc_median_s": 0.1862,
+   "calc_p95_s": 0.2369,
+   "calc_max_s": 0.2641,
+   "budget_slow_s": 0.27,
+   "budget_fast_s": 0.22,
+   "deadline_miss": 0,
+   "deadline_fallback_to_R": 0,
+   "chose_R": 94,
+   "chose_candidate": 468,
+   "no_feasible": 378,
+   "no_forecast": 63
+  }
+ },
+ "composition": {
+  "slow_total": 293,
+  "slow_R": 151,
+  "slow_hold": 90,
+  "slow_proposal": 52,
+  "fast_total": 719,
+  "fast_R": 389,
+  "fast_hold": 205,
+  "fast_proposal": 125
+ },
+ "per_record": {
+  "fixed": {
+   "PEER01": {
+    "redR": {
+     "ux_max": 13.671386390044804,
+     "ux_rms": 42.068010034267346,
+     "uy_max": 24.612477353589767,
+     "uy_rms": 20.069678591709263,
+     "th_max": 12.377503850107608,
+     "th_rms": 13.424906892002697
+    },
+    "redA": {
+     "ux_max": 16.401575660357658,
+     "ux_rms": 44.98827695889557,
+     "uy_max": 27.51911258339973,
+     "uy_rms": 24.436152186257807,
+     "th_max": 12.572345538035744,
+     "th_rms": 17.371204075990764
+    },
+    "d": {
+     "ux_max": 2.730189270312854,
+     "ux_rms": 2.9202669246282227,
+     "uy_max": 2.906635229809961,
+     "uy_rms": 4.366473594548545,
+     "th_max": 0.19484168792813605,
+     "th_rms": 3.946297183988067
+    },
+    "mean6R": 21.037327185286912,
+    "mean6A": 23.881444500489547,
+    "dmean6": 2.844117315202631,
+    "marg_max": 0.19484168792813605,
+    "marg_rms": 3.946297183988067,
+    "viol": false
+   },
+   "PEER02": {
+    "redR": {
+     "ux_max": 16.79801807944774,
+     "ux_rms": 42.340965889691454,
+     "uy_max": 25.99710812206897,
+     "uy_rms": 29.72866087808085,
+     "th_max": 8.110634729256772,
+     "th_rms": 7.284268297139507
+    },
+    "redA": {
+     "ux_max": 17.172101985428856,
+     "ux_rms": 44.28608028969104,
+     "uy_max": 30.841461232159627,
+     "uy_rms": 29.45530279401556,
+     "th_max": 13.119836659367989,
+     "th_rms": 4.4616032580910625
+    },
+    "d": {
+     "ux_max": 0.3740839059811165,
+     "ux_rms": 1.9451143999995892,
+     "uy_max": 4.844353110090658,
+     "uy_rms": -0.27335808406528983,
+     "th_max": 5.009201930111217,
+     "th_rms": -2.8226650390484442
+    },
+    "mean6R": 21.709942665947548,
+    "mean6A": 23.222731036459024,
+    "dmean6": 1.5127883705114744,
+    "marg_max": 5.009201930111217,
+    "marg_rms": -2.8226650390484442,
+    "viol": true
+   },
+   "PEER03": {
+    "redR": {
+     "ux_max": 11.643623022154282,
+     "ux_rms": 46.13262864111158,
+     "uy_max": 22.084826625555255,
+     "uy_rms": 35.117927261446965,
+     "th_max": -10.863128987131155,
+     "th_rms": 0.13025828549121377
+    },
+    "redA": {
+     "ux_max": 11.698666850729811,
+     "ux_rms": 46.847543819396485,
+     "uy_max": 24.916015719969455,
+     "uy_rms": 38.939107561342055,
+     "th_max": 5.646327853612643,
+     "th_rms": 9.67556706021121
+    },
+    "d": {
+     "ux_max": 0.055043828575529474,
+     "ux_rms": 0.7149151782849046,
+     "uy_max": 2.8311890944141993,
+     "uy_rms": 3.82118029989509,
+     "th_max": 16.5094568407438,
+     "th_rms": 9.545308774719995
+    },
+    "mean6R": 17.374355808104692,
+    "mean6A": 22.95387147754361,
+    "dmean6": 5.579515669438919,
+    "marg_max": 16.5094568407438,
+    "marg_rms": 9.545308774719995,
+    "viol": false
+   },
+   "PEER04": {
+    "redR": {
+     "ux_max": 5.4926957840986335,
+     "ux_rms": 40.29228733139977,
+     "uy_max": 7.670181593440528,
+     "uy_rms": 13.496235964386628,
+     "th_max": 4.152160018837614,
+     "th_rms": 6.040534064483694
+    },
+    "redA": {
+     "ux_max": 5.511269052384438,
+     "ux_rms": 40.446911735718984,
+     "uy_max": 9.141999166853399,
+     "uy_rms": 29.447763382940973,
+     "th_max": 4.329393411879456,
+     "th_rms": 19.145942665451578
+    },
+    "d": {
+     "ux_max": 0.01857326828580419,
+     "ux_rms": 0.15462440431921465,
+     "uy_max": 1.4718175734128707,
+     "uy_rms": 15.951527418554345,
+     "th_max": 0.17723339304184194,
+     "th_rms": 13.105408600967884
+    },
+    "mean6R": 12.857349126107813,
+    "mean6A": 18.003879902538134,
+    "dmean6": 5.1465307764303265,
+    "marg_max": 0.17723339304184194,
+    "marg_rms": 13.105408600967884,
+    "viol": false
+   },
+   "PEER11": {
+    "redR": {
+     "ux_max": 3.975000812394014,
+     "ux_rms": 23.932911730913986,
+     "uy_max": 1.2070778697829354,
+     "uy_rms": 3.407937830088126,
+     "th_max": 10.240553871742797,
+     "th_rms": 7.162065087660297
+    },
+    "redA": {
+     "ux_max": 9.727373831893471,
+     "ux_rms": 36.76962415646501,
+     "uy_max": 2.0639855877318536,
+     "uy_rms": 23.081955492360052,
+     "th_max": 24.986463616315003,
+     "th_rms": 23.89807610424387
+    },
+    "d": {
+     "ux_max": 5.752373019499458,
+     "ux_rms": 12.83671242555102,
+     "uy_max": 0.8569077179489182,
+     "uy_rms": 19.674017662271925,
+     "th_max": 14.745909744572206,
+     "th_rms": 16.736011016583575
+    },
+    "mean6R": 8.320924533763693,
+    "mean6A": 20.087913131501544,
+    "dmean6": 11.76698859773785,
+    "marg_max": 14.745909744572206,
+    "marg_rms": 16.736011016583575,
+    "viol": false
+   },
+   "PEER13": {
+    "redR": {
+     "ux_max": 18.242324425394298,
+     "ux_rms": 48.066201120429454,
+     "uy_max": 22.064208987256485,
+     "uy_rms": 19.809724019594842,
+     "th_max": 7.071719077369387,
+     "th_rms": 16.84090582747776
+    },
+    "redA": {
+     "ux_max": 18.324041787835764,
+     "ux_rms": 47.59423032170288,
+     "uy_max": 23.848809613172083,
+     "uy_rms": 26.412845321216572,
+     "th_max": 7.0964628700903365,
+     "th_rms": 21.200281623597096
+    },
+    "d": {
+     "ux_max": 0.08171736244146643,
+     "ux_rms": -0.47197079872657355,
+     "uy_max": 1.7846006259155978,
+     "uy_rms": 6.60312130162173,
+     "th_max": 0.024743792720949287,
+     "th_rms": 4.359375796119338
+    },
+    "mean6R": 22.015847242920373,
+    "mean6A": 24.079445256269125,
+    "dmean6": 2.0635980133487513,
+    "marg_max": 0.024743792720949287,
+    "marg_rms": 4.359375796119338,
+    "viol": false
+   },
+   "PEER14": {
+    "redR": {
+     "ux_max": 4.626039243325463,
+     "ux_rms": 39.75414438002285,
+     "uy_max": 2.649985598786242,
+     "uy_rms": 25.855307703470164,
+     "th_max": 14.294393845216513,
+     "th_rms": 28.7385282793298
+    },
+    "redA": {
+     "ux_max": 4.616517127397368,
+     "ux_rms": 38.440615191574544,
+     "uy_max": 2.651729971157013,
+     "uy_rms": 25.67004882133599,
+     "th_max": 14.299190443888786,
+     "th_rms": 27.09847878830499
+    },
+    "d": {
+     "ux_max": -0.009522115928095154,
+     "ux_rms": -1.3135291884483067,
+     "uy_max": 0.0017443723707710745,
+     "uy_rms": -0.18525888213417474,
+     "th_max": 0.004796598672273333,
+     "th_rms": -1.6400494910248078
+    },
+    "mean6R": 19.319733175025174,
+    "mean6A": 18.796096723943112,
+    "dmean6": -0.5236364510820567,
+    "marg_max": 0.004796598672273333,
+    "marg_rms": -1.6400494910248078,
+    "viol": true
+   },
+   "PEER15": {
+    "redR": {
+     "ux_max": 8.954858097512641,
+     "ux_rms": 12.600570418911383,
+     "uy_max": -2.8006518494292365,
+     "uy_rms": 7.742354814598162,
+     "th_max": 5.269064545758628,
+     "th_rms": 10.863765267224101
+    },
+    "redA": {
+     "ux_max": 12.861506893909757,
+     "ux_rms": 19.48057434485275,
+     "uy_max": 0.4638360129847974,
+     "uy_rms": 20.125704868744243,
+     "th_max": 12.092374712631472,
+     "th_rms": 20.378962795442845
+    },
+    "d": {
+     "ux_max": 3.906648796397116,
+     "ux_rms": 6.880003925941368,
+     "uy_max": 3.264487862414034,
+     "uy_rms": 12.383350054146081,
+     "th_max": 6.823310166872844,
+     "th_rms": 9.515197528218744
+    },
+    "mean6R": 7.104993549095947,
+    "mean6A": 14.233826604760978,
+    "dmean6": 7.128833055665031,
+    "marg_max": 6.823310166872844,
+    "marg_rms": 9.515197528218744,
+    "viol": false
+   },
+   "ElCentro_1940": {
+    "redR": {
+     "ux_max": 26.932227916819063,
+     "ux_rms": 42.233954033273044,
+     "uy_max": -0.18941399708414242,
+     "uy_rms": 8.288954971422324,
+     "th_max": 1.1414450266171272,
+     "th_rms": 9.48314894916954
+    },
+    "redA": {
+     "ux_max": 28.580465630114205,
+     "ux_rms": 52.80363785753204,
+     "uy_max": 0.11724823255361283,
+     "uy_rms": 16.175367280961407,
+     "th_max": 2.4053527124430762,
+     "th_rms": 15.708942656901703
+    },
+    "d": {
+     "ux_max": 1.648237713295142,
+     "ux_rms": 10.569683824258995,
+     "uy_max": 0.30666222963775525,
+     "uy_rms": 7.886412309539082,
+     "th_max": 1.263907685825949,
+     "th_rms": 6.225793707732164
+    },
+    "mean6R": 14.64838615003616,
+    "mean6A": 19.298502395084338,
+    "dmean6": 4.650116245048181,
+    "marg_max": 1.263907685825949,
+    "marg_rms": 6.225793707732164,
+    "viol": false
+   },
+   "Pohang_2017_BUS2": {
+    "redR": {
+     "ux_max": 4.8505352988073795,
+     "ux_rms": 10.581567873691334,
+     "uy_max": -9.060545043329494,
+     "uy_rms": -3.3628981690800863,
+     "th_max": 5.239097911010148,
+     "th_rms": 7.630486298730299
+    },
+    "redA": {
+     "ux_max": 6.34538569173948,
+     "ux_rms": 11.305241031686231,
+     "uy_max": -9.513374206233195,
+     "uy_rms": -3.513347217426266,
+     "th_max": 4.822466925586566,
+     "th_rms": 7.344532264302217
+    },
+    "d": {
+     "ux_max": 1.4948503929321006,
+     "ux_rms": 0.723673157994897,
+     "uy_max": -0.4528291629037007,
+     "uy_rms": -0.15044904834617956,
+     "th_max": -0.41663098542358235,
+     "th_rms": -0.285954034428082
+    },
+    "mean6R": 2.64637402830493,
+    "mean6A": 2.7984840816091716,
+    "dmean6": 0.15211005330424218,
+    "marg_max": -0.41663098542358235,
+    "marg_rms": -0.285954034428082,
+    "viol": true
+   },
+   "Gyeongju_2016_CHJ2": {
+    "redR": {
+     "ux_max": -5.76694383563936,
+     "ux_rms": 23.771590458327417,
+     "uy_max": -2.606240897400136,
+     "uy_rms": 13.549685157407376,
+     "th_max": 3.2413216827995694,
+     "th_rms": 17.074514624824044
+    },
+    "redA": {
+     "ux_max": -2.8581753693262657,
+     "ux_rms": 33.431505541163276,
+     "uy_max": 9.163893278795198,
+     "uy_rms": 23.45993337605349,
+     "th_max": 1.925611552520723,
+     "th_rms": 18.10759241499301
+    },
+    "d": {
+     "ux_max": 2.908768466313094,
+     "ux_rms": 9.659915082835859,
+     "uy_max": 11.770134176195334,
+     "uy_rms": 9.910248218646112,
+     "th_max": -1.3157101302788465,
+     "th_rms": 1.0330777901689672
+    },
+    "mean6R": 8.210654531719818,
+    "mean6A": 13.871726799033238,
+    "dmean6": 5.661072267313421,
+    "marg_max": -1.3157101302788465,
+    "marg_rms": 1.0330777901689672,
+    "viol": true
+   }
+  },
+  "actual": {
+   "PEER01": {
+    "redR": {
+     "ux_max": 13.671386390044804,
+     "ux_rms": 42.068010034267346,
+     "uy_max": 24.612477353589767,
+     "uy_rms": 20.069678591709263,
+     "th_max": 12.377503850107608,
+     "th_rms": 13.424906892002697
+    },
+    "redA": {
+     "ux_max": 16.401575660357658,
+     "ux_rms": 44.98827695889557,
+     "uy_max": 27.51911258339973,
+     "uy_rms": 24.436152186257807,
+     "th_max": 12.572345538035744,
+     "th_rms": 17.371204075990764
+    },
+    "d": {
+     "ux_max": 2.730189270312854,
+     "ux_rms": 2.9202669246282227,
+     "uy_max": 2.906635229809961,
+     "uy_rms": 4.366473594548545,
+     "th_max": 0.19484168792813605,
+     "th_rms": 3.946297183988067
+    },
+    "mean6R": 21.037327185286912,
+    "mean6A": 23.881444500489547,
+    "dmean6": 2.844117315202631,
+    "marg_max": 0.19484168792813605,
+    "marg_rms": 3.946297183988067,
+    "viol": false
+   },
+   "PEER02": {
+    "redR": {
+     "ux_max": 16.79801807944774,
+     "ux_rms": 42.340965889691454,
+     "uy_max": 25.99710812206897,
+     "uy_rms": 29.72866087808085,
+     "th_max": 8.110634729256772,
+     "th_rms": 7.284268297139507
+    },
+    "redA": {
+     "ux_max": 17.172101985428856,
+     "ux_rms": 44.28608028969104,
+     "uy_max": 30.841461232159627,
+     "uy_rms": 29.45530279401556,
+     "th_max": 13.119836659367989,
+     "th_rms": 4.4616032580910625
+    },
+    "d": {
+     "ux_max": 0.3740839059811165,
+     "ux_rms": 1.9451143999995892,
+     "uy_max": 4.844353110090658,
+     "uy_rms": -0.27335808406528983,
+     "th_max": 5.009201930111217,
+     "th_rms": -2.8226650390484442
+    },
+    "mean6R": 21.709942665947548,
+    "mean6A": 23.222731036459024,
+    "dmean6": 1.5127883705114744,
+    "marg_max": 5.009201930111217,
+    "marg_rms": -2.8226650390484442,
+    "viol": true
+   },
+   "PEER03": {
+    "redR": {
+     "ux_max": 11.643623022154282,
+     "ux_rms": 46.13262864111158,
+     "uy_max": 22.084826625555255,
+     "uy_rms": 35.117927261446965,
+     "th_max": -10.863128987131155,
+     "th_rms": 0.13025828549121377
+    },
+    "redA": {
+     "ux_max": 11.698666850729811,
+     "ux_rms": 46.847543819396485,
+     "uy_max": 24.916015719969455,
+     "uy_rms": 38.939107561342055,
+     "th_max": 5.646327853612643,
+     "th_rms": 9.67556706021121
+    },
+    "d": {
+     "ux_max": 0.055043828575529474,
+     "ux_rms": 0.7149151782849046,
+     "uy_max": 2.8311890944141993,
+     "uy_rms": 3.82118029989509,
+     "th_max": 16.5094568407438,
+     "th_rms": 9.545308774719995
+    },
+    "mean6R": 17.374355808104692,
+    "mean6A": 22.95387147754361,
+    "dmean6": 5.579515669438919,
+    "marg_max": 16.5094568407438,
+    "marg_rms": 9.545308774719995,
+    "viol": false
+   },
+   "PEER04": {
+    "redR": {
+     "ux_max": 5.4926957840986335,
+     "ux_rms": 40.29228733139977,
+     "uy_max": 7.670181593440528,
+     "uy_rms": 13.496235964386628,
+     "th_max": 4.152160018837614,
+     "th_rms": 6.040534064483694
+    },
+    "redA": {
+     "ux_max": 5.511269052384438,
+     "ux_rms": 40.446911735718984,
+     "uy_max": 9.141999166853399,
+     "uy_rms": 29.447763382940973,
+     "th_max": 4.329393411879456,
+     "th_rms": 19.145942665451578
+    },
+    "d": {
+     "ux_max": 0.01857326828580419,
+     "ux_rms": 0.15462440431921465,
+     "uy_max": 1.4718175734128707,
+     "uy_rms": 15.951527418554345,
+     "th_max": 0.17723339304184194,
+     "th_rms": 13.105408600967884
+    },
+    "mean6R": 12.857349126107813,
+    "mean6A": 18.003879902538134,
+    "dmean6": 5.1465307764303265,
+    "marg_max": 0.17723339304184194,
+    "marg_rms": 13.105408600967884,
+    "viol": false
+   },
+   "PEER11": {
+    "redR": {
+     "ux_max": 3.975000812394014,
+     "ux_rms": 23.932911730913986,
+     "uy_max": 1.2070778697829354,
+     "uy_rms": 3.407937830088126,
+     "th_max": 10.240553871742797,
+     "th_rms": 7.162065087660297
+    },
+    "redA": {
+     "ux_max": 9.727373831893471,
+     "ux_rms": 36.76962415646501,
+     "uy_max": 2.0639855877318536,
+     "uy_rms": 23.081955492360052,
+     "th_max": 24.986463616315003,
+     "th_rms": 23.89807610424387
+    },
+    "d": {
+     "ux_max": 5.752373019499458,
+     "ux_rms": 12.83671242555102,
+     "uy_max": 0.8569077179489182,
+     "uy_rms": 19.674017662271925,
+     "th_max": 14.745909744572206,
+     "th_rms": 16.736011016583575
+    },
+    "mean6R": 8.320924533763693,
+    "mean6A": 20.087913131501544,
+    "dmean6": 11.76698859773785,
+    "marg_max": 14.745909744572206,
+    "marg_rms": 16.736011016583575,
+    "viol": false
+   },
+   "PEER13": {
+    "redR": {
+     "ux_max": 18.242324425394298,
+     "ux_rms": 48.066201120429454,
+     "uy_max": 22.064208987256485,
+     "uy_rms": 19.809724019594842,
+     "th_max": 7.071719077369387,
+     "th_rms": 16.84090582747776
+    },
+    "redA": {
+     "ux_max": 18.324041787835764,
+     "ux_rms": 47.59423032170288,
+     "uy_max": 23.848809613172083,
+     "uy_rms": 26.412845321216572,
+     "th_max": 7.0964628700903365,
+     "th_rms": 21.200281623597096
+    },
+    "d": {
+     "ux_max": 0.08171736244146643,
+     "ux_rms": -0.47197079872657355,
+     "uy_max": 1.7846006259155978,
+     "uy_rms": 6.60312130162173,
+     "th_max": 0.024743792720949287,
+     "th_rms": 4.359375796119338
+    },
+    "mean6R": 22.015847242920373,
+    "mean6A": 24.079445256269125,
+    "dmean6": 2.0635980133487513,
+    "marg_max": 0.024743792720949287,
+    "marg_rms": 4.359375796119338,
+    "viol": false
+   },
+   "PEER14": {
+    "redR": {
+     "ux_max": 4.626039243325463,
+     "ux_rms": 39.75414438002285,
+     "uy_max": 2.649985598786242,
+     "uy_rms": 25.855307703470164,
+     "th_max": 14.294393845216513,
+     "th_rms": 28.7385282793298
+    },
+    "redA": {
+     "ux_max": 4.616517127397368,
+     "ux_rms": 38.440615191574544,
+     "uy_max": 2.651729971157013,
+     "uy_rms": 25.67004882133599,
+     "th_max": 14.299190443888786,
+     "th_rms": 27.09847878830499
+    },
+    "d": {
+     "ux_max": -0.009522115928095154,
+     "ux_rms": -1.3135291884483067,
+     "uy_max": 0.0017443723707710745,
+     "uy_rms": -0.18525888213417474,
+     "th_max": 0.004796598672273333,
+     "th_rms": -1.6400494910248078
+    },
+    "mean6R": 19.319733175025174,
+    "mean6A": 18.796096723943112,
+    "dmean6": -0.5236364510820567,
+    "marg_max": 0.004796598672273333,
+    "marg_rms": -1.6400494910248078,
+    "viol": true
+   },
+   "PEER15": {
+    "redR": {
+     "ux_max": 8.954858097512641,
+     "ux_rms": 12.600570418911383,
+     "uy_max": -2.8006518494292365,
+     "uy_rms": 7.742354814598162,
+     "th_max": 5.269064545758628,
+     "th_rms": 10.863765267224101
+    },
+    "redA": {
+     "ux_max": 12.861506893909757,
+     "ux_rms": 19.48057434485275,
+     "uy_max": 0.4638360129847974,
+     "uy_rms": 20.125704868744243,
+     "th_max": 12.092374712631472,
+     "th_rms": 20.378962795442845
+    },
+    "d": {
+     "ux_max": 3.906648796397116,
+     "ux_rms": 6.880003925941368,
+     "uy_max": 3.264487862414034,
+     "uy_rms": 12.383350054146081,
+     "th_max": 6.823310166872844,
+     "th_rms": 9.515197528218744
+    },
+    "mean6R": 7.104993549095947,
+    "mean6A": 14.233826604760978,
+    "dmean6": 7.128833055665031,
+    "marg_max": 6.823310166872844,
+    "marg_rms": 9.515197528218744,
+    "viol": false
+   },
+   "ElCentro_1940": {
+    "redR": {
+     "ux_max": 26.932227916819063,
+     "ux_rms": 42.233954033273044,
+     "uy_max": -0.18941399708414242,
+     "uy_rms": 8.288954971422324,
+     "th_max": 1.1414450266171272,
+     "th_rms": 9.48314894916954
+    },
+    "redA": {
+     "ux_max": 28.580465630114205,
+     "ux_rms": 52.80363785753204,
+     "uy_max": 0.11724823255361283,
+     "uy_rms": 16.175367280961407,
+     "th_max": 2.4053527124430762,
+     "th_rms": 15.708942656901703
+    },
+    "d": {
+     "ux_max": 1.648237713295142,
+     "ux_rms": 10.569683824258995,
+     "uy_max": 0.30666222963775525,
+     "uy_rms": 7.886412309539082,
+     "th_max": 1.263907685825949,
+     "th_rms": 6.225793707732164
+    },
+    "mean6R": 14.64838615003616,
+    "mean6A": 19.298502395084338,
+    "dmean6": 4.650116245048181,
+    "marg_max": 1.263907685825949,
+    "marg_rms": 6.225793707732164,
+    "viol": false
+   },
+   "Pohang_2017_BUS2": {
+    "redR": {
+     "ux_max": 4.8505352988073795,
+     "ux_rms": 10.581567873691334,
+     "uy_max": -9.060545043329494,
+     "uy_rms": -3.3628981690800863,
+     "th_max": 5.239097911010148,
+     "th_rms": 7.630486298730299
+    },
+    "redA": {
+     "ux_max": 6.34538569173948,
+     "ux_rms": 11.305241031686231,
+     "uy_max": -9.513374206233195,
+     "uy_rms": -3.513347217426266,
+     "th_max": 4.822466925586566,
+     "th_rms": 7.344532264302217
+    },
+    "d": {
+     "ux_max": 1.4948503929321006,
+     "ux_rms": 0.723673157994897,
+     "uy_max": -0.4528291629037007,
+     "uy_rms": -0.15044904834617956,
+     "th_max": -0.41663098542358235,
+     "th_rms": -0.285954034428082
+    },
+    "mean6R": 2.64637402830493,
+    "mean6A": 2.7984840816091716,
+    "dmean6": 0.15211005330424218,
+    "marg_max": -0.41663098542358235,
+    "marg_rms": -0.285954034428082,
+    "viol": true
+   },
+   "Gyeongju_2016_CHJ2": {
+    "redR": {
+     "ux_max": -5.76694383563936,
+     "ux_rms": 23.771590458327417,
+     "uy_max": -2.606240897400136,
+     "uy_rms": 13.549685157407376,
+     "th_max": 3.2413216827995694,
+     "th_rms": 17.074514624824044
+    },
+    "redA": {
+     "ux_max": -2.8581753693262657,
+     "ux_rms": 33.431505541163276,
+     "uy_max": 9.163893278795198,
+     "uy_rms": 23.45993337605349,
+     "th_max": 1.925611552520723,
+     "th_rms": 18.10759241499301
+    },
+    "d": {
+     "ux_max": 2.908768466313094,
+     "ux_rms": 9.659915082835859,
+     "uy_max": 11.770134176195334,
+     "uy_rms": 9.910248218646112,
+     "th_max": -1.3157101302788465,
+     "th_rms": 1.0330777901689672
+    },
+    "mean6R": 8.210654531719818,
+    "mean6A": 13.871726799033238,
+    "dmean6": 5.661072267313421,
+    "marg_max": -1.3157101302788465,
+    "marg_rms": 1.0330777901689672,
+    "viol": true
+   }
+  }
+ }
+}

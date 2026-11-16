@@ -1,0 +1,4 @@
+env,method,n_events,S_pct,dS_vs_R_pp,ci95_lo,ci95_hi,n_better,n_worse,worst_event_dS_pp,torsion_worse_events,torsion_worst_pp,note
+MATLAB 26.1.0.3346908 (R2026a) Update 5,U,3,0.0000,-12.2048,-19.3197,-2.6464,0,3,-19.3197,3,-28.7385,개발 사건(시험 아님); 사건 수가 적어 bootstrap 구간은 탐색적
+MATLAB 26.1.0.3346908 (R2026a) Update 5,R,3,12.2048,0.0000,0.0000,0.0000,0,0,0.0000,0,0.0000,개발 사건(시험 아님); 사건 수가 적어 bootstrap 구간은 탐색적
+MATLAB 26.1.0.3346908 (R2026a) Update 5,J-AI,3,12.3172,0.1124,-0.5236,0.7086,2,1,-0.5236,2,-1.6400,개발 사건(시험 아님); 사건 수가 적어 bootstrap 구간은 탐색적

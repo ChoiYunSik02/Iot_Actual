@@ -1,0 +1,16 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "iot-tlcd-team",
+  "description": "IOT 액추에이터 과목 TLCD 능동제진 팀의 내부 도구 마켓플레이스. 주간보고서 PPT 생성기와 연구 컨텍스트 스킬을 배포합니다.",
+  "owner": {
+    "name": "박정주",
+    "email": "jungju3756@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "iot-tlcd",
+      "source": "./",
+      "description": "TLCD 기반 건물 능동제진 연구팀용 도구 모음 — 주간보고서 PPT 생성기와 연구 컨텍스트 공유."
+    }
+  ]
+}

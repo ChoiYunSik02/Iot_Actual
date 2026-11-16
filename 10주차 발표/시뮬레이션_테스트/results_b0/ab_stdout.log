@@ -1,0 +1,4 @@
+2026-11-11 13:02:48 시작 ab
+2026-11-11 13:03:52 (a) 끝
+2026-11-11 13:05:32 (b) 끝
+2026-11-11 13:05:33 완료 {"n_pairs": 62, "a_end_share_mean": 0.49490461607046476, "a_end_share_min": 0.36041971693509023, "a_end_share_max": 0.721, "b_grad_norm_per_record_median": 0.03526727946845684, "b_grad_norm_per_record_max": 0.21957548380356173, "b_share_records_over_clip1": 0.0, "b_full_batch_grad_norm": 0.018083825689523596, "b_full_over_mean_record": 0.3514482043422289, "b_cos_median": 0.08496387111265101, "b_cos_share_negative": 0.4865150713907985, "b_loss_mean": 0.8130984341363511, "minutes": 2.743279000123342}

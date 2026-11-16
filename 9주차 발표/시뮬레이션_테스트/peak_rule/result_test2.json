@@ -1,0 +1,335 @@
+{
+ "n_records": 29,
+ "events": [
+  "Big Bear-01",
+  "Chalfant Valley-02",
+  "Coalinga-01",
+  "Darfield, New Zealand",
+  "Iwate, Japan",
+  "Morgan Hill",
+  "N. Palm Springs",
+  "Parkfield-02, CA",
+  "Tabas, Iran",
+  "Whittier Narrows-01"
+ ],
+ "score": {
+  "R": 13.768357808283389,
+  "FIX45": 14.494181879514565,
+  "PEAK": 16.23223590848545,
+  "LP": 15.889890132511754,
+  "PEAK_V": 16.834581206887144,
+  "LP_V": 16.614897828800146
+ },
+ "main": {
+  "PEAK-R": {
+   "dS_evt": 2.487856272702742,
+   "ci95": [
+    1.794981887783246,
+    3.206235393997273
+   ],
+   "n_evt_better": 10,
+   "n_evt": 10,
+   "n_rec_better": 26,
+   "n_rec": 29,
+   "thmax_worse": 5,
+   "thmax_mean": 3.6165117158730604,
+   "per_metric": [
+    0.7,
+    -1.34,
+    1.91,
+    3.67,
+    3.62,
+    6.22
+   ],
+   "per_event": {
+    "Big": 0.57,
+    "Chalfant": 1.81,
+    "Coalinga-01": 1.65,
+    "Darfield": 1.59,
+    "Iwate": 4.47,
+    "Morgan": 2.41,
+    "N.": 1.85,
+    "Parkfield-02": 3.62,
+    "Tabas": 3.18,
+    "Whittier": 3.73
+   }
+  },
+  "PEAK-FIX45": {
+   "dS_evt": 1.7000401239414469,
+   "ci95": [
+    0.8893104944332942,
+    2.6919506557338697
+   ],
+   "n_evt_better": 9,
+   "n_evt": 10,
+   "n_rec_better": 23,
+   "n_rec": 29,
+   "thmax_worse": 15,
+   "thmax_mean": -0.15314917746021353,
+   "per_metric": [
+    1.27,
+    5.72,
+    1.94,
+    2.91,
+    -0.15,
+    -1.26
+   ],
+   "per_event": {
+    "Big": 1.7,
+    "Chalfant": 1.75,
+    "Coalinga-01": 5.21,
+    "Darfield": 0.99,
+    "Iwate": 1.03,
+    "Morgan": 2.81,
+    "N.": -0.46,
+    "Parkfield-02": 1.08,
+    "Tabas": 0.6,
+    "Whittier": 2.3
+   }
+  },
+  "LP_V-R": {
+   "dS_evt": 2.8161590264842142,
+   "ci95": [
+    2.0879349477626734,
+    3.719089578512163
+   ],
+   "n_evt_better": 10,
+   "n_evt": 10,
+   "n_rec_better": 25,
+   "n_rec": 29,
+   "thmax_worse": 3,
+   "thmax_mean": 3.980236653562614,
+   "per_metric": [
+    0.2,
+    -0.72,
+    1.99,
+    4.3,
+    3.98,
+    7.33
+   ],
+   "per_event": {
+    "Big": 2.24,
+    "Chalfant": 2.36,
+    "Coalinga-01": 2.82,
+    "Darfield": 1.19,
+    "Iwate": 6.14,
+    "Morgan": 2.28,
+    "N.": 1.87,
+    "Parkfield-02": 3.84,
+    "Tabas": 1.94,
+    "Whittier": 3.49
+   }
+  }
+ },
+ "aux": {
+  "LP-R": {
+   "dS_evt": 2.102100876861771,
+   "ci95": [
+    1.316640039427175,
+    2.967678688742119
+   ],
+   "n_evt_better": 9,
+   "n_evt": 10,
+   "n_rec_better": 24,
+   "n_rec": 29,
+   "thmax_worse": 6,
+   "thmax_mean": 2.9249439725473803,
+   "per_metric": [
+    0.17,
+    -1.86,
+    1.58,
+    3.67,
+    2.92,
+    6.24
+   ],
+   "per_event": {
+    "Big": -0.26,
+    "Chalfant": 1.13,
+    "Coalinga-01": 2.06,
+    "Darfield": 1.55,
+    "Iwate": 4.75,
+    "Morgan": 2.03,
+    "N.": 1.53,
+    "Parkfield-02": 3.86,
+    "Tabas": 1.54,
+    "Whittier": 2.81
+   }
+  },
+  "PEAK_V-PEAK": {
+   "dS_evt": 0.6061283122869809,
+   "ci95": [
+    0.26775796582429495,
+    0.9310730064380225
+   ],
+   "n_evt_better": 9,
+   "n_evt": 10,
+   "n_rec_better": 22,
+   "n_rec": 29,
+   "thmax_worse": 9,
+   "thmax_mean": 0.7792269414288215,
+   "per_metric": [
+    -0.23,
+    0.8,
+    0.36,
+    0.64,
+    0.78,
+    1.27
+   ],
+   "per_event": {
+    "Big": 1.58,
+    "Chalfant": 0.97,
+    "Coalinga-01": 0.96,
+    "Darfield": 0.07,
+    "Iwate": 0.6,
+    "Morgan": 0.65,
+    "N.": 0.41,
+    "Parkfield-02": -0.5,
+    "Tabas": 0.72,
+    "Whittier": 0.61
+   }
+  },
+  "PEAK_V-R": {
+   "dS_evt": 3.093984584989723,
+   "ci95": [
+    2.499251161987356,
+    3.740524111834231
+   ],
+   "n_evt_better": 10,
+   "n_evt": 10,
+   "n_rec_better": 26,
+   "n_rec": 29,
+   "thmax_worse": 1,
+   "thmax_mean": 4.395738657301882,
+   "per_metric": [
+    0.47,
+    -0.54,
+    2.27,
+    4.31,
+    4.4,
+    7.49
+   ],
+   "per_event": {
+    "Big": 2.15,
+    "Chalfant": 2.78,
+    "Coalinga-01": 2.61,
+    "Darfield": 1.67,
+    "Iwate": 5.07,
+    "Morgan": 3.06,
+    "N.": 2.26,
+    "Parkfield-02": 3.11,
+    "Tabas": 3.9,
+    "Whittier": 4.34
+   }
+  },
+  "FIX45-R": {
+   "dS_evt": 0.7878161487612956,
+   "ci95": [
+    -0.5454333416013062,
+    1.9702310266816778
+   ],
+   "n_evt_better": 7,
+   "n_evt": 10,
+   "n_rec_better": 15,
+   "n_rec": 29,
+   "thmax_worse": 8,
+   "thmax_mean": 3.769660893333275,
+   "per_metric": [
+    -0.57,
+    -7.06,
+    -0.03,
+    0.76,
+    3.77,
+    7.48
+   ],
+   "per_event": {
+    "Big": -1.13,
+    "Chalfant": 0.06,
+    "Coalinga-01": -3.56,
+    "Darfield": 0.6,
+    "Iwate": 3.44,
+    "Morgan": -0.4,
+    "N.": 2.31,
+    "Parkfield-02": 2.54,
+    "Tabas": 2.59,
+    "Whittier": 1.43
+   }
+  }
+ },
+ "noise5": {
+  "PEAK-R": {
+   "dS_evt": 1.7797017294174104,
+   "seeds": [
+    1.8042189135578095,
+    1.9141471900035107,
+    1.6427598849333644,
+    1.8727471821426351,
+    1.6646354764497324
+   ]
+  },
+  "LP-R": {
+   "dS_evt": 2.1188670056578993,
+   "seeds": [
+    2.075975752606932,
+    2.1268269711436494,
+    2.1346453561330283,
+    2.09425894988389,
+    2.1626279985219954
+   ]
+  },
+  "LP_V-R": {
+   "dS_evt": 2.810293894141477,
+   "seeds": [
+    2.793789662075461,
+    2.8647959004762713,
+    2.7924806511010543,
+    2.7745764611352417,
+    2.8258267959193555
+   ]
+  }
+ },
+ "pooled_PEAK-FIX45": {
+  "dS_evt": 1.4871245378697244,
+  "ci95": [
+   0.5264807636965171,
+   2.5362081135966754
+  ],
+  "n_evt_better": 16,
+  "n_evt": 22,
+  "n_rec_better": 39,
+  "n_rec": 54,
+  "thmax_worse": 27,
+  "thmax_mean": -0.5018124413597961,
+  "per_metric": [
+   1.45,
+   5.05,
+   1.75,
+   2.02,
+   -0.5,
+   -1.59
+  ],
+  "per_event": {
+   "Big": 1.7,
+   "Cape": 2.14,
+   "Chalfant": 1.75,
+   "Coalinga-01": 5.21,
+   "Darfield": 0.99,
+   "Denali": 8.09,
+   "Erzican": 1.67,
+   "Friuli": -0.41,
+   "Gazli": -0.67,
+   "Hector": 4.1,
+   "Irpinia": -0.28,
+   "Iwate": 1.03,
+   "Kocaeli": -0.29,
+   "Landers": -4.23,
+   "Loma": 2.0,
+   "Morgan": 2.81,
+   "N.": -0.46,
+   "Nahanni": 0.62,
+   "Parkfield-02": 1.08,
+   "Superstition": 2.99,
+   "Tabas": 0.6,
+   "Whittier": 2.3
+  }
+ }
+}

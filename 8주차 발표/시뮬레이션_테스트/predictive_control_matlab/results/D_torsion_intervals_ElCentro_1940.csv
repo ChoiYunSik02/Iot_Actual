@@ -1,0 +1,6 @@
+env,interval_s,share_of_rms2_increase_pct,theta_cmd_deg,R_theta_cmd_deg,f_cmd_hz,pred_thrms_ratio_vs_Rcand,true_thrms_ratio_vs_Rcand,true_J_ratio_vs_Rcand,reason,mean_theta_A_deg,mean_theta_R_deg,th_rms_A_interval,th_rms_R_interval
+MATLAB 26.1.0.3346908 (R2026a) Update 5,5.2-7.8,58.71,60.273,53.305,0.35420,1.0000,1.0000,1.0000,chose_R,36.870,54.530,2.1004e-03,1.9445e-03
+MATLAB 26.1.0.3346908 (R2026a) Update 5,7.8-10.4,48.91,39.047,35.686,0.35420,1.0000,1.0000,1.0000,chose_R,41.976,37.710,9.7084e-04,6.4599e-04
+MATLAB 26.1.0.3346908 (R2026a) Update 5,15.6-18.2,20.60,0.000,45.697,0.35420,0.9776,1.0036,0.9054,chose_cand,0.542,45.481,7.4536e-04,5.7821e-04
+MATLAB 26.1.0.3346908 (R2026a) Update 5,28.6-31.2,12.31,63.613,70.359,0.35420,1.0000,1.0000,1.0000,chose_R,60.976,70.844,8.5283e-04,7.7145e-04
+MATLAB 26.1.0.3346908 (R2026a) Update 5,10.4-13.0,8.13,24.047,28.385,0.35420,0.9994,1.0005,0.9896,chose_cand,25.519,28.741,5.9008e-04,5.1074e-04

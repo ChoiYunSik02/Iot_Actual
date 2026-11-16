@@ -1,0 +1,1 @@
+{"budget_s":[0.27,0.22],"slow_p50":0.223819,"slow_p99":0.2604519,"fast_p50":0.1829713,"fast_p99":0.2155322,"n_slow":112,"n_fast":273,"method":"J-AI","env":"MATLAB 26.1.0.3346908 (R2026a) Update 5","commit":"f7fb88d68dade686081664044c927bb5d40e3cb4","digest":"53d82e1bfbce45aa","rule":"지속 부하 p99, 0.01 s 올림, 고베 1회 워밍업 제외, 난수 가중치 점수망(같은 구조)","feasible":true}

@@ -1,0 +1,1 @@
+{"stage":"C","pass":true,"provenance":{"branch":"claude/focused-gauss-ubza04","commit":"f7fb88d68dade686081664044c927bb5d40e3cb4","dirty":false,"env":"MATLAB 26.1.0.3346908 (R2026a) Update 5","time":"2026-10-29 21:40:27","digest":"53d82e1bfbce45aa","config_hash":"c4569a5ef9164ed5"},"info":{"evidence":"results/stage_C_check.csv"}}

@@ -1,0 +1,35 @@
+[
+ {
+  "update": 100,
+  "train_gain": 0.0017171070216019837,
+  "held_gain": 0.0036574966567966966,
+  "held_events": [
+   "Denali",
+   "Hector",
+   "Landers",
+   "San"
+  ]
+ },
+ {
+  "update": 200,
+  "train_gain": -0.025908324988095494,
+  "held_gain": 0.47656211847051777,
+  "held_events": [
+   "Denali",
+   "Hector",
+   "Landers",
+   "San"
+  ]
+ },
+ {
+  "update": 300,
+  "train_gain": 0.07424966205038296,
+  "held_gain": 0.45264614614004184,
+  "held_events": [
+   "Denali",
+   "Hector",
+   "Landers",
+   "San"
+  ]
+ }
+]

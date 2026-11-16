@@ -1,0 +1,2 @@
+[] 다음 사용 중 오류가 발생함: run_week08_laptop (42번 라인)
+SL: Simulink 대 스텝 엔진 불일치 → results/simulink_check.csv

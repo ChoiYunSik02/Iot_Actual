@@ -1,0 +1,13 @@
+﻿record_id,slow_R,slow_hold,slow_proposal,fast_R,fast_hold,fast_proposal
+PEER01,7,9,3,10,24,12
+PEER02,4,3,2,17,4,2
+PEER03,4,8,6,10,22,14
+PEER04,4,9,5,15,18,12
+PEER11,5,5,9,12,17,17
+PEER13,4,4,3,9,13,6
+PEER14,61,0,0,146,1,1
+PEER15,14,30,17,38,71,39
+ElCentro_1940,4,13,7,13,30,16
+Pohang_2017_BUS2,23,3,0,62,1,2
+Gyeongju_2016_CHJ2,21,6,0,57,4,4
+합계,151,90,52,389,205,125

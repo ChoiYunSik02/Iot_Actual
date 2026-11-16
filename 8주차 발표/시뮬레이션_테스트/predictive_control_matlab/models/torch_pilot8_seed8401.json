@@ -1,0 +1,152 @@
+{
+ "stage": "pilot8",
+ "device": "cuda",
+ "patience": 10,
+ "seed": 8401,
+ "epochs_max": 100,
+ "best_epoch": 8,
+ "val_mse": 1.0655977001953125,
+ "history": [
+  {
+   "epoch": 1,
+   "train_loss": 1.078358990818262,
+   "val_mse": 1.0773788037109375,
+   "elapsed_s": 4.945791006088257
+  },
+  {
+   "epoch": 2,
+   "train_loss": 1.0707249985039233,
+   "val_mse": 1.0720739965820312,
+   "elapsed_s": 9.809008836746216
+  },
+  {
+   "epoch": 3,
+   "train_loss": 1.0667279050946237,
+   "val_mse": 1.0717442822265626,
+   "elapsed_s": 14.4415762424469
+  },
+  {
+   "epoch": 4,
+   "train_loss": 1.0654293420910834,
+   "val_mse": 1.0710953662109375,
+   "elapsed_s": 19.082907915115356
+  },
+  {
+   "epoch": 5,
+   "train_loss": 1.063108425796032,
+   "val_mse": 1.0672476391601562,
+   "elapsed_s": 23.605037689208984
+  },
+  {
+   "epoch": 6,
+   "train_loss": 1.0617795380353927,
+   "val_mse": 1.06847986328125,
+   "elapsed_s": 28.419416666030884
+  },
+  {
+   "epoch": 7,
+   "train_loss": 1.0610479730963707,
+   "val_mse": 1.0674437573242188,
+   "elapsed_s": 33.41826415061951
+  },
+  {
+   "epoch": 8,
+   "train_loss": 1.0599201747775078,
+   "val_mse": 1.0655977001953125,
+   "elapsed_s": 38.48509359359741
+  },
+  {
+   "epoch": 9,
+   "train_loss": 1.0587427270114422,
+   "val_mse": 1.0667654956054688,
+   "elapsed_s": 43.60625982284546
+  },
+  {
+   "epoch": 10,
+   "train_loss": 1.0580298097133636,
+   "val_mse": 1.0676465869140626,
+   "elapsed_s": 48.65491604804993
+  },
+  {
+   "epoch": 11,
+   "train_loss": 1.0570569858849048,
+   "val_mse": 1.0670908984375,
+   "elapsed_s": 53.63968300819397
+  },
+  {
+   "epoch": 12,
+   "train_loss": 1.0566042192578315,
+   "val_mse": 1.0659380249023438,
+   "elapsed_s": 58.2077112197876
+  },
+  {
+   "epoch": 13,
+   "train_loss": 1.0557685327529907,
+   "val_mse": 1.068044833984375,
+   "elapsed_s": 62.80115485191345
+  },
+  {
+   "epoch": 14,
+   "train_loss": 1.0549109660983085,
+   "val_mse": 1.06633140625,
+   "elapsed_s": 67.63913774490356
+  },
+  {
+   "epoch": 15,
+   "train_loss": 1.0542327426075935,
+   "val_mse": 1.065884228515625,
+   "elapsed_s": 72.50214004516602
+  },
+  {
+   "epoch": 16,
+   "train_loss": 1.05358795017004,
+   "val_mse": 1.0671549682617187,
+   "elapsed_s": 77.30875039100647
+  },
+  {
+   "epoch": 17,
+   "train_loss": 1.052687788873911,
+   "val_mse": 1.06701349609375,
+   "elapsed_s": 81.9400098323822
+  },
+  {
+   "epoch": 18,
+   "train_loss": 1.0519610588848591,
+   "val_mse": 1.0686621801757812,
+   "elapsed_s": 86.49141764640808
+  }
+ ],
+ "train_s": 87.73172187805176,
+ "n_train": 32000,
+ "n_val": 8000,
+ "scaler": {
+  "mu": [
+   -6.121478221433013e-05,
+   -4.666254429041585e-05
+  ],
+  "sd": [
+   0.07771195732673868,
+   0.07809848415681113
+  ]
+ },
+ "order_in": "X: (B, T=500, C=3) = [zX, zY, mask]",
+ "order_out": "[zX(1..400); zY(1..400)]",
+ "gate_order": "PyTorch LSTM i, f, g, o",
+ "numpy_parity_maxabs": 3.350349699893229e-07,
+ "dataset": "C:\\Users\\cys\\Desktop\\iot-actuator-week08\\predictive_control_matlab\\data\\forecast_dataset_pilot.mat",
+ "dataset_sha16": "2c37c5981892d318",
+ "dataset_format": "matlab-v7.3",
+ "torch": "2.6.0+cu124",
+ "numpy": "2.4.6",
+ "python": "3.11.0",
+ "platform": "Windows-10-10.0.26300-SP0",
+ "threads": 16,
+ "quiet_frac_train": 0.169,
+ "overfit_check": {
+  "n_windows": 64,
+  "steps": 300,
+  "loss_first": 1.2971289157867432,
+  "loss_last": 0.10909800976514816,
+  "pass": true
+ }
+}

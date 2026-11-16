@@ -1,0 +1,67 @@
+R rec1 done 10s
+R rec2 done 10s
+R rec3 done 11s
+R rec4 done 12s
+R rec5 done 12s
+R rec6 done 13s
+R rec7 done 13s
+R rec8 done 13s
+R rec9 done 13s
+R rec10 done 13s
+R rec11 done 13s
+R rec12 done 13s
+R rec13 done 13s
+R rec14 done 30s
+R rec15 done 30s
+peak rec1 done 30s
+peak rec2 done 30s
+peak rec3 done 30s
+peak rec4 done 30s
+peak rec5 done 30s
+peak rec6 done 30s
+peak rec7 done 30s
+peak rec8 done 30s
+peak rec9 done 30s
+peak rec10 done 30s
+peak rec11 done 30s
+peak rec12 done 30s
+peak rec13 done 30s
+peak rec14 done 30s
+peak rec15 done 33s
+peak_maxabs rec1 done 33s
+peak_maxabs rec2 done 33s
+peak_maxabs rec3 done 33s
+peak_maxabs rec4 done 33s
+peak_maxabs rec5 done 33s
+peak_maxabs rec6 done 33s
+peak_maxabs rec7 done 33s
+peak_maxabs rec8 done 33s
+peak_maxabs rec9 done 33s
+peak_maxabs rec10 done 33s
+peak_maxabs rec11 done 33s
+peak_maxabs rec12 done 33s
+peak_maxabs rec13 done 33s
+peak_maxabs rec14 done 33s
+peak_maxabs rec15 done 35s
+peak_pull0 rec1 done 35s
+peak_pull0 rec2 done 35s
+peak_pull0 rec3 done 35s
+peak_pull0 rec4 done 35s
+peak_pull0 rec5 done 35s
+peak_pull0 rec6 done 35s
+peak_pull0 rec7 done 35s
+peak_pull0 rec8 done 35s
+peak_pull0 rec9 done 35s
+peak_pull0 rec10 done 35s
+peak_pull0 rec11 done 35s
+peak_pull0 rec12 done 35s
+peak_pull0 rec13 done 35s
+peak_pull0 rec14 done 35s
+peak_pull0 rec15 done 35s
+
+variant        rec%   evt%  d_rec  d_evt better thmax_worse rot%
+R             15.81  15.96  +0.00  +0.00     0/15     0/15    +0
+peak          18.81  18.36  +3.00  +2.40    14/15     8/15   -17
+peak_maxabs   18.65  17.97  +2.84  +2.01    13/15     5/15   +14
+peak_pull0    16.65  15.45  +0.84  -0.51     9/15     8/15   -83
+v19 target   {'rec_gain': 3.0, 'evt_gain': 2.4, 'n_better': 14, 'rot_change': -17.0}

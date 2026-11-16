@@ -1,0 +1,19 @@
+{
+ "rec5_steps": 8000,
+ "dt": 0.005,
+ "sim_cold_s": 1.677033450000181,
+ "sim_warm_s": 0.7011221540001316,
+ "cache_entries_after_run": 222,
+ "expm_s": 0.004731312000330945,
+ "plant_step_s": 7.157551999989664e-06,
+ "morlet_ident_30s_s": 0.018846489199950155,
+ "mlp46_forward_s": 4.740165799989882e-05,
+ "n_cands": 45,
+ "H_steps": 800,
+ "rollout_cold_mean_s": 0.07304006182226254,
+ "rollout_warm_mean_s": 0.017828453311085467,
+ "rollout_new_expm_mean": 12.066666666666666,
+ "rollout_new_expm_max": 45,
+ "rollout_warm_total_45_s": 0.8022803989988461,
+ "rollout_cold_total_45_s": 3.286802782001814
+}

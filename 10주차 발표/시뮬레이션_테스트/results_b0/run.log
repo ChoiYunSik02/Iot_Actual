@@ -1,0 +1,12 @@
+2026-11-11 12:43:09 시작 ab (smoke)
+2026-11-11 12:43:28 (a) 끝
+2026-11-11 12:43:43 (b) 끝
+2026-11-11 12:43:43 완료 {"n_pairs": 2, "a_end_share_mean": 0.41226945668135095, "a_end_share_min": 0.3935389133627019, "a_end_share_max": 0.43100000000000005, "b_grad_norm_per_record_median": 0.0408311484249499, "b_grad_norm_per_record_max": 0.07153672782919267, "b_share_records_over_clip1": 0.0, "b_full_batch_grad_norm": 0.03789132137191899, "b_full_over_mean_record": 0.9280003828833154, "b_cos_median": 0.36099835057707663, "b_cos_share_negative": 0.0, "b_loss_mean": 0.790429499671921, "minutes": 0.5683839797973633}
+2026-11-11 12:43:58 시작 c (smoke)
+2026-11-11 12:44:16 완료 {"n_pairs": 1, "c_r2_event_mean": NaN, "rule_r2": 0.9779702864805047, "minutes": 0.2986649711926778}
+2026-11-11 13:02:48 시작 ab
+2026-11-11 13:03:52 (a) 끝
+2026-11-11 13:05:32 (b) 끝
+2026-11-11 13:05:33 완료 {"n_pairs": 62, "a_end_share_mean": 0.49490461607046476, "a_end_share_min": 0.36041971693509023, "a_end_share_max": 0.721, "b_grad_norm_per_record_median": 0.03526727946845684, "b_grad_norm_per_record_max": 0.21957548380356173, "b_share_records_over_clip1": 0.0, "b_full_batch_grad_norm": 0.018083825689523596, "b_full_over_mean_record": 0.3514482043422289, "b_cos_median": 0.08496387111265101, "b_cos_share_negative": 0.4865150713907985, "b_loss_mean": 0.8130984341363511, "minutes": 2.743279000123342}
+2026-11-11 17:21:15 시작 c
+2026-11-11 17:24:43 완료 {"n_pairs": 62, "c_r2_event_mean": -0.03341072195549845, "rule_r2": -0.22063894291556685, "minutes": 3.471492560704549}

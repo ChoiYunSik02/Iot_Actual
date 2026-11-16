@@ -1,0 +1,87 @@
+{
+ "commit_run": "7f7d953042acd7111134956a8f33e62612a86edf",
+ "commit_results": "72ccefe",
+ "code_digest_laptop": "266b4ef442c9e5db",
+ "config_hash_laptop": "c6e7b9c6838848de",
+ "env": "MATLAB 26.1.0.3346908 (R2026a) Update 5; Python 3.11, torch 2.6.0+cu124 (CUDA)",
+ "records": {
+  "ElCentro_1940": "a64345874ec2c938",
+  "PEER14": "9f9c5c937c5391e1",
+  "Pohang_2017_BUS2": "432505de4a784ee9"
+ },
+ "events_eval": [
+  "ElCentro1940",
+  "Pohang2017",
+  "Kobe1995"
+ ],
+ "evaluation": "개발 평가 (독립 시험 아님)",
+ "training": {
+  "data": "합성 원천 1000 (train 800 / val 200), 생성 시드 84000~84999, 분할 시드 8400, 원천당 창 최대 40, 실제 기록 제외",
+  "windows": {
+   "train": 32000,
+   "val": 8000
+  },
+  "model": "LSTM(64, 마지막 상태) → FC128 → ReLU → FC800, MSE, Adam 1e-3, batch 32, grad clip 1, 최대 100 epoch, patience 10",
+  "seeds": [
+   8401,
+   8402,
+   8403
+  ],
+  "main_seed": 8401,
+  "normalization": "train 분할 통계",
+  "checkpoint": "검증 손실 최소",
+  "quiet_window_frac": 0.169,
+  "overfit_check": "64창 300스텝 1.297→0.109 통과"
+ },
+ "forecast": {
+  "first_after_trigger_s": 1.0,
+  "window_s": 5.0,
+  "update_period_s": 0.2,
+  "horizon_s": 4.0,
+  "min_eval_s": 2.0,
+  "worker_rule": "작업자 1개. 이전 작업이 끝나지 않은 갱신 시각은 건너뛰고 deadline_miss로 기록. 완료된 구형 예측은 새 예측으로 쓰지 않음(기준시각 보존).",
+  "valid_mask_rule": "트리거 시각 이후에 도착한 100 Hz 샘플만 mask=1. 그 앞은 0 채움, mask=0. 정규화 후 패딩, mask는 표준화하지 않음."
+ },
+ "controller_main": {
+  "default_path": "ontime",
+  "constraint": "shadow",
+  "angle_mode": "absolute",
+  "angle_grid_deg": [
+   0,
+   22.5,
+   45,
+   67.5,
+   90
+  ],
+  "df_hz": [
+   -0.005,
+   0.0,
+   0.005
+  ],
+  "tie_rule": "후보 순서 R → 현재 유지 → 나머지, 동점이면 앞",
+  "torsion_tol": "0 %p (rel 1e-12)"
+ },
+ "controller_ref": {
+  "default_path": "ontime",
+  "constraint": "window_R",
+  "angle_mode": "relative",
+  "dtheta_deg": [
+   -15,
+   0,
+   15
+  ]
+ },
+ "timing": {
+  "mode": "nominal (주 비교) + actual 1회",
+  "select_budget_s": {
+   "main": 0.85,
+   "ref": 0.45
+  },
+  "rule": "지속 부하 p99 (고베 워밍업 후 3사건), 0.01 s 올림",
+  "sensor_s": 0,
+  "comm_s": 0,
+  "forecast_ready_steps": 1,
+  "R_steps": 1
+ },
+ "metric": "6지표(X·Y·비틀림 최대·RMS) 저감률 = 100(1 − 제어/무제어) → 기록 평균 → 사건 내 평균 → 사건 동일 가중; 비교 기준 원래 R"
+}

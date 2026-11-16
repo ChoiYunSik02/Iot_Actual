@@ -1,0 +1,8 @@
+--- 2026-10-31 00:24:54 | selector_step=C:\Users\cys\Desktop\iot-actuator-week08\week08_state_delay_pilot_v2\override\selector_step.m | MATLAB 26.1.0.3346908 (R2026a) Update 5
+V5_SCORER_REF policy=eval seed=1 elapsed=198.8 s
+V5_DET3 policy=det3 seed=1 elapsed=202.8 s
+V5_RAND3_S1 policy=rand3 seed=8401 elapsed=265.3 s
+V5_RAND3_S2 policy=rand3 seed=104729 elapsed=217.0 s
+V5_RAND3_S3 policy=rand3 seed=1299709 elapsed=171.9 s
+V5_RAND3_S4 policy=rand3 seed=15485863 elapsed=173.5 s
+V5_RAND3_S5 policy=rand3 seed=179424673 elapsed=195.2 s

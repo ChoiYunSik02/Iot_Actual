@@ -1,0 +1,5 @@
+env,method,record_id,chose_R,chose_cand,no_forecast,horizon,nan,no_feasible,deadline,deadline_hold,queue_expired
+MATLAB 26.1.0.3346908 (R2026a) Update 5,U,ElCentro_1940,0,0,0,0,0,0,0,0,0
+MATLAB 26.1.0.3346908 (R2026a) Update 5,R,ElCentro_1940,0,0,0,0,0,0,0,0,0
+MATLAB 26.1.0.3346908 (R2026a) Update 5,AIPY-C1,ElCentro_1940,14,10,0,0,0,0,0,0,0
+MATLAB 26.1.0.3346908 (R2026a) Update 5,AINAT-C1,ElCentro_1940,16,8,0,0,0,0,0,0,0

@@ -1,0 +1,7 @@
+delay 0.00 s  R  13.64  LP_V  16.75  dS_evt +3.02 [+2.31, +3.70]  better 54/62
+delay 0.05 s  R  13.58  LP_V  16.65  dS_evt +3.02 [+2.30, +3.71]  better 53/62
+delay 0.10 s  R  13.47  LP_V  16.49  dS_evt +2.96 [+2.25, +3.65]  better 53/62
+delay 0.20 s  R  13.44  LP_V  16.20  dS_evt +2.75 [+1.97, +3.51]  better 53/62
+delay 0.50 s  R  13.18  LP_V  15.57  dS_evt +2.42 [+1.49, +3.32]  better 51/62
+delay 1.00 s  R  12.65  LP_V  14.93  dS_evt +2.04 [+1.21, +2.81]  better 53/62
+806 runs 427s

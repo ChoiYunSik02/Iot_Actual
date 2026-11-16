@@ -1,0 +1,6 @@
+env,interval_s,share_of_rms2_increase_pct,theta_cmd_deg,R_theta_cmd_deg,f_cmd_hz,pred_thrms_ratio_vs_Rcand,true_thrms_ratio_vs_Rcand,true_J_ratio_vs_Rcand,reason,mean_theta_A_deg,mean_theta_R_deg,th_rms_A_interval,th_rms_R_interval
+Octave 8.4.0 (예비),23.4-25.0,73.26,47.965,40.515,0.33182,1.0000,1.0000,1.0000,chose_R,26.130,41.709,3.6614e-04,2.0279e-04
+Octave 8.4.0 (예비),20.8-23.4,15.84,2.189,51.103,0.35420,0.9500,0.9926,0.8792,chose_cand,2.189,46.929,1.8976e-04,1.5353e-04
+Octave 8.4.0 (예비),15.6-18.2,6.54,17.189,38.869,0.35420,0.9935,1.0273,0.8403,chose_cand,18.660,38.768,4.3220e-04,4.2621e-04
+Octave 8.4.0 (예비),18.2-20.8,4.72,2.189,25.737,0.35420,0.9879,1.0358,1.0349,chose_cand,3.660,26.867,2.1790e-04,2.0923e-04
+Octave 8.4.0 (예비),0.0-2.6,0.00,NaN,NaN,NaN,NaN,NaN,NaN,,0.000,0.000,2.5753e-07,2.5753e-07

@@ -1,0 +1,3 @@
+models/torch_pilot8_seed8401.json: 노트북 c8cdd82a2cda633a (3508 B) | 저장소 23faff3999d2a22c (3357 B), CRLF 변환 c8cdd82a2cda633a (3508 B) → 바이트 재현: CRLF로 바꾸면 | JSON 파싱 동일: True (키 26개)
+models/joint_scorer_seed8401.json: 노트북 141f1dfba4a676ce (528784 B) | 저장소 141f1dfba4a676ce (528784 B), CRLF 변환 141f1dfba4a676ce (528784 B) → 바이트 재현: LF 그대로 | JSON 파싱 동일: True (키 24개)
+결과: 내용 동일 (줄바꿈만 다름 또는 완전 동일)

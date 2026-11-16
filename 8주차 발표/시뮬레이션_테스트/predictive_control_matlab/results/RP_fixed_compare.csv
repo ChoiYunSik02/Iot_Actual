@@ -1,0 +1,16 @@
+method,record_id,identical,first_field,first_step,max_abs_diff
+U,PEER14,1,,NaN,0.000e+00
+R,PEER14,1,,NaN,0.000e+00
+SIMPLE-zero,PEER14,1,,NaN,0.000e+00
+SIMPLE-persistence,PEER14,1,,NaN,0.000e+00
+PREVIEW-C1,PEER14,1,,NaN,0.000e+00
+U,ElCentro_1940,1,,NaN,0.000e+00
+R,ElCentro_1940,1,,NaN,0.000e+00
+SIMPLE-zero,ElCentro_1940,1,,NaN,0.000e+00
+SIMPLE-persistence,ElCentro_1940,1,,NaN,0.000e+00
+PREVIEW-C1,ElCentro_1940,1,,NaN,0.000e+00
+U,Pohang_2017_BUS2,1,,NaN,0.000e+00
+R,Pohang_2017_BUS2,1,,NaN,0.000e+00
+SIMPLE-zero,Pohang_2017_BUS2,1,,NaN,0.000e+00
+SIMPLE-persistence,Pohang_2017_BUS2,1,,NaN,0.000e+00
+PREVIEW-C1,Pohang_2017_BUS2,1,,NaN,0.000e+00

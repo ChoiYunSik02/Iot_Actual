@@ -1,0 +1,7 @@
+{
+  // 이 프로젝트의 .ppt 파일은 내부가 pptx(OOXML) 형식이므로
+  // Office Viewer 확장으로 열리게 연결합니다. (확장 기본값은 .pptx만 지원)
+  "workbench.editorAssociations": {
+    "*.ppt": "cweijan.officeViewer"
+  }
+}

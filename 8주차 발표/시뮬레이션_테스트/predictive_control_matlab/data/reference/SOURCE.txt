@@ -1,0 +1,2 @@
+validation_ref.mat  sha256 0291a1f67d6cee664edb504a63596a5b32d0c52a5240fe2ec34a0e90debeb6f2
+출처: week08_actuator_ai_results (2).zip / logs/validation_ref.mat (Python 엔진 기준값, 수정 없음)

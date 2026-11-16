@@ -1,0 +1,11 @@
+[MATLAB:UndefinedFunction] 함수 'trig100'은(는) 'double'형 입력 인수에 대해 정의되지 않았습니다.
+
+오류 발생: run_final8>export_forecasts (216번 라인)
+    tg = trig100(x, y, cfg.sensor.trigger_mps2); if tg < 0, continue; end
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+오류 발생: run_final8 (61번 라인)
+export_forecasts(od, tag, cfg, tp, B{1}, ev);
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+오류 발생: run_week08_laptop (78번 라인)
+                run_final8(struct('seed_models', {sm_}));
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

@@ -1,0 +1,42 @@
+epoch  1 train 0.00199 val 0.00561
+epoch  2 train 0.00113 val 0.00553
+epoch  3 train 0.00089 val 0.00549
+epoch  4 train 0.00072 val 0.00553
+epoch  5 train 0.00059 val 0.00563
+epoch  6 train 0.00050 val 0.00567
+epoch  7 train 0.00045 val 0.00566
+epoch  8 train 0.00038 val 0.00564
+{
+ "best_epoch": 3,
+ "val_loss": 0.0054939867292894936,
+ "metrics": {
+  "train": {
+   "n": 304,
+   "top3_hit": 0.3136094674556213,
+   "n_top3_defined": 169,
+   "eval_hit": 0.7467105263157895,
+   "regret": 0.0023649639088646787,
+   "fallback": 0.6151315789473685
+  },
+  "train_random": {
+   "top3_hit": 0.07659763313609468,
+   "eval_hit": 0.6366447368421052,
+   "regret": 0.004828005733627833,
+   "fallback": 0.5880921052631579
+  },
+  "val": {
+   "n": 80,
+   "top3_hit": 0.20408163265306123,
+   "n_top3_defined": 49,
+   "eval_hit": 0.6375,
+   "regret": 0.012859707926770653,
+   "fallback": 0.6125
+  },
+  "val_random": {
+   "top3_hit": 0.0786734693877551,
+   "eval_hit": 0.5746875,
+   "regret": 0.010797100476292175,
+   "fallback": 0.509
+  }
+ }
+}

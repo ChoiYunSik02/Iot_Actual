@@ -1,0 +1,1 @@
+{"throughput_sec_per_record":10.036996250000001,"est_hours_100_at_8":0.27880545138888896,"states_per_record":8,"reduced_8_to_4":false,"rule":"추정 > 6 h면 성능 평가 전 상태 8 → 4 (계획 §6.3)","decided_at":"2026-10-29 21:43:06","env":"MATLAB 26.1.0.3346908 (R2026a) Update 5"}

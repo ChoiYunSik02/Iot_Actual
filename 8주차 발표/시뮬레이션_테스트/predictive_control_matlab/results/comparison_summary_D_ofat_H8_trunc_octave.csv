@@ -1,0 +1,5 @@
+env,method,n_events,S_pct,dS_vs_R_pp,ci95_lo,ci95_hi,n_better,n_worse,worst_event_dS_pp,torsion_worse_events,torsion_worst_pp,note
+Octave 8.4.0 (예비),U,3,0.0000,-6.8318,-14.9072,8.0071,1,2,-14.9072,2,-20.4390,개발 사건(시험 아님); 사건 수가 적어 bootstrap 구간은 탐색적
+Octave 8.4.0 (예비),R,3,6.8318,0.0000,0.0000,0.0000,0,0,0.0000,0,0.0000,개발 사건(시험 아님); 사건 수가 적어 bootstrap 구간은 탐색적
+Octave 8.4.0 (예비),SIMPLE-persistence,3,7.4593,0.6274,0.2356,1.2072,3,0,0.2356,3,-1.0001,개발 사건(시험 아님); 사건 수가 적어 bootstrap 구간은 탐색적
+Octave 8.4.0 (예비),PREVIEW-C1,3,10.0298,3.1979,0.2416,8.9474,3,0,0.2416,1,-0.1171,개발 사건(시험 아님); 사건 수가 적어 bootstrap 구간은 탐색적

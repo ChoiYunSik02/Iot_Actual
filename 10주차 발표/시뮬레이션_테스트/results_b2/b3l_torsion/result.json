@@ -1,0 +1,97 @@
+{
+ "b3l B3_13": {
+  "per_metric": [
+   -0.2583168429911199,
+   0.5820167432578948,
+   0.13267378734969082,
+   0.36402473388696116,
+   1.062925969205286,
+   0.9443235678384351
+  ],
+  "mean6": 0.4712746597578579,
+  "thmax_worse": 34,
+  "worse_mag_pp_median": 0.128205374360432,
+  "worse_mag_pp_max": 3.1177929653813283,
+  "worse_rel_pct_median": 0.1434135016213256,
+  "worse_rel_pct_max": 4.306349363109208,
+  "worse_but_mean_better": 18,
+  "corr_thmax_thrms": 0.8509436586446171,
+  "corr_thmax_other5": 0.6388670655608083,
+  "worse_by_event": {
+   "Imperial": 11,
+   "Northridge-01": 4,
+   "Chi-Chi": 4,
+   "Kobe": 2,
+   "Friuli": 1,
+   "Gazli": 1,
+   "Hector": 1,
+   "Irpinia": 1,
+   "Kocaeli": 2,
+   "Landers": 1,
+   "Loma": 1,
+   "Superstition": 3,
+   "Duzce": 1,
+   "Manjil": 1
+  }
+ },
+ "b3 B3_13": {
+  "per_metric": [
+   -0.07137629502425664,
+   0.05523070102536928,
+   0.03243338752730187,
+   -0.003839395688776007,
+   -0.11881020897656504,
+   -0.04742485058611205
+  ],
+  "mean6": -0.025631110287173086,
+  "thmax_worse": 39,
+  "worse_mag_pp_median": 0.05244886516422312,
+  "worse_mag_pp_max": 1.9188679752001336,
+  "worse_rel_pct_median": 0.057896678754687514,
+  "worse_rel_pct_max": 1.384231859028584,
+  "worse_but_mean_better": 9,
+  "corr_thmax_thrms": 0.3477589936371779,
+  "corr_thmax_other5": 0.2864511121945843,
+  "worse_by_event": {
+   "Imperial": 12,
+   "Northridge-01": 3,
+   "Kobe": 2,
+   "Chi-Chi": 3,
+   "Cape": 2,
+   "Erzican": 1,
+   "Friuli": 1,
+   "Gazli": 1,
+   "Hector": 1,
+   "Irpinia": 1,
+   "Kocaeli": 3,
+   "Loma": 3,
+   "Nahanni": 1,
+   "Superstition": 3,
+   "Duzce": 1,
+   "San": 1
+  }
+ },
+ "상한 해(B0')": {
+  "per_metric": [
+   0.9575964217497134,
+   3.349635921255877,
+   2.2235581836726745,
+   4.230161685497288,
+   3.86591245183048,
+   4.810755444319628
+  ],
+  "mean6": 3.23960335138761,
+  "thmax_worse": 3,
+  "worse_mag_pp_median": 0.14119542873257843,
+  "worse_mag_pp_max": 0.25835940314909484,
+  "worse_rel_pct_median": 0.15619388666294753,
+  "worse_rel_pct_max": 0.3019201157895779,
+  "worse_but_mean_better": 3,
+  "corr_thmax_thrms": 0.7715440257850201,
+  "corr_thmax_other5": 0.5218021050051402,
+  "worse_by_event": {
+   "Imperial": 2,
+   "Kocaeli": 1
+  }
+ }
+}
